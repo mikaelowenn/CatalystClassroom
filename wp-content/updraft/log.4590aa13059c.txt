@@ -1,0 +1,7 @@
+0000.040 (0) Opened log file at time: Sun, 10 Sep 2023 04:14:22 +0000 on https://www.catalystclassroom.com
+0000.041 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.23.3.26 WP: 6.3.1 PHP: 8.0.29 (litespeed, Linux mulan.jagoanhosting.com 3.10.0-962.3.2.lve1.5.77.el7.x86_64 #1 SMP Mon Dec 12 07:06:14 EST 2022 x86_64) MySQL: 10.3.37-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 29.9M | 34M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.043 (0) Free space on disk containing Updraft's temporary directory: 1706028.7 MB
+0000.051 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.053 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.055 (0) Semaphore lock (fd, wp_options) failed (line 43)
+0000.056 (0) Failed to gain semaphore lock (fd) - another backup of this type is apparently already active - aborting (if this is wrong - i.e. if the other backup crashed without removing the lock, then another can be started after 3 minutes)

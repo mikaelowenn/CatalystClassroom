@@ -1,0 +1,70 @@
+2023-09-09T14:41:01+00:00 CRITICAL Uncaught Error: Class "WPSEO_Capability_Manager_Factory" not found in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wordpress-seo-premium/premium.php:79
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): WPSEO_Premium::install()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-admin/includes/plugin.php(693): do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-admin/plugins.php(58): activate_plugin()
+#5 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wordpress-seo-premium/premium.php on line 79
+
+2023-09-09T15:05:41+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/includes/elementor/widgets/courses/styles/card-slots.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/includes/elementor/widgets/courses/ms_lms_courses.php:85
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2329): StmLmsElementor\Widgets\MsLmsCourses->register_controls()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2416): Elementor\Controls_Stack->get_controls()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1109): Elementor\Controls_Stack->sanitize_settings()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2163): Elementor\Controls_Stack->get_data()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(923): Elementor\Core\Base\Base_Object->get_settings()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(937): Elementor\Widget_Base->get_current_skin_id()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(604): Elementor\Widget_Base->get_current_skin()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Widget_Base->print_content()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#17 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#18 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/core/base/document.php(1680): Elementor\Element_Base->print_element()
+#19 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/core/base/document.php(1106): Elementor\Core\Base\Document->print_elements()
+#20 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#21 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#22 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): Elementor\Frontend->apply_builder_in_content()
+#23 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#24 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/post-template.php(256): apply_filters()
+#25 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#26 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#27 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#28 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#29 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template-loader.php(106): include('/home/catalyst/...')
+#30 /home/catalyst/domains/catalystclassroom.com/public_html/wp-blog-header.php(19): require_once('/home/catalyst/...')
+#31 /home/catalyst/domains/catalystclassroom.com/public_html/index.php(17): require('/home/catalyst/...')
+#32 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/includes/elementor/widgets/courses/ms_lms_courses.php on line 85
+
+2023-09-09T15:10:59+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/wp-content/themes/masterstudy/partials/headers/header_6.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template.php:787
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template.php(720): load_template()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/general-template.php(206): locate_template()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/themes/masterstudy/partials/headers/main.php(55): get_template_part()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template.php(787): require('/home/catalyst/...')
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template.php(720): load_template()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/general-template.php(206): locate_template()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/themes/masterstudy/header.php(16): get_template_part()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template.php(785): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template.php(720): load_template()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(63): locate_template()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(312): HFE\Themes\HFE_Default_Compat->override_header()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/general-template.php(38): do_action()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template-loader.php(106): include('/home/catalyst/...')
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/wp-blog-header.php(19): require_once('/home/catalyst/...')
+#17 /home/catalyst/domains/catalystclassroom.com/public_html/index.php(17): require('/home/catalyst/...')
+#18 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template.php on line 787
+

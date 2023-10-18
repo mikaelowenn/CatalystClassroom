@@ -1,0 +1,105 @@
+0000.001 (0) Opened log file at time: Tue, 29 Aug 2023 16:38:19 +0000 on https://www.catalystclassroom.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.23.3.26 WP: 6.3 PHP: 8.0.29 (litespeed, Linux mulan.jagoanhosting.com 3.10.0-962.3.2.lve1.5.77.el7.x86_64 #1 SMP Mon Dec 12 07:06:14 EST 2022 x86_64) MySQL: 10.3.37-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 27M | 68M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 1736815.5 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 0 (schedule: manual)
+0000.014 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0000.017 (0) Set semaphore last lock (f) time to 2023-08-29 16:38:19
+0000.017 (0) Semaphore lock (f) complete
+0000.023 (0) Backup run: resumption=0, nonce=d5c26a013d06, file_nonce=d5c26a013d06 begun at=1693327099 (0s ago), job type=backup, label=Automatic backup before update caused by entities (wpcore)
+0000.024 (0) A resumption will be scheduled for the cloud backup stage
+0000.025 (0) Scheduling a resumption (1) after 600 seconds (1693327699) in case this run gets aborted
+0000.028 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/home/catalyst/:/tmp:/var/tmp:/opt/alt/php74/usr/share/pear/:/dev/urandom:/usr/local/lib/php/:/usr/local/php74/lib/php/) (line 168, wp-content/plugins/updraftplus/backup.php)
+0000.028 (0) Checking if we have a zip executable available
+0000.029 (0) Creation of backups of directories: beginning
+0000.032 (0) No backup of plugins: excluded by user's options
+0000.033 (0) No backup of themes: excluded by user's options
+0000.033 (0) No backup of uploads: excluded by user's options
+0000.036 (0) Beginning creation of dump of wpcore (split every: 400 MB)
+0000.051 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/home/catalyst/:/tmp:/var/tmp:/opt/alt/php74/usr/share/pear/:/dev/urandom:/usr/local/lib/php/:/usr/local/php74/lib/php/) (line 408, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.919 (0) Total entities for the zip file: 256 directories, 2597 files (0 skipped as non-modified), 52 MB
+0000.945 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.969 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.992 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.016 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.043 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.068 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.106 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.147 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.187 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.229 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.230 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.8 MB, 2597 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.503 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 1100 files added (on-disk size: 2834.2 KB)
+0002.530 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 1200 files added (on-disk size: 2834.2 KB)
+0002.556 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 1300 files added (on-disk size: 2834.2 KB)
+0002.578 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 1400 files added (on-disk size: 2834.2 KB)
+0002.605 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 1500 files added (on-disk size: 2834.2 KB)
+0002.631 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 1600 files added (on-disk size: 2834.2 KB)
+0002.656 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 1700 files added (on-disk size: 2834.2 KB)
+0002.681 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 1800 files added (on-disk size: 2834.2 KB)
+0002.686 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.3 MB, 2597 files batched, 814 (1815) added so far); re-opening (prior size: 2834.2 KB)
+0006.880 (0) A useful amount of data was added after this amount of zip processing: 5.2 s (normalised: 5.1 s, rate: 5026.8 KB/s)
+0006.882 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.1549890041351, normalised_time=5.0927409389234, max_time=6.880115032196, data points known=1, old_max_bytes=26214400, new_max_bytes=30884429)
+0006.916 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 1900 files added (on-disk size: 8750 KB)
+0006.944 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 2000 files added (on-disk size: 8750 KB)
+0006.973 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 2100 files added (on-disk size: 8750 KB)
+0007.003 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 2200 files added (on-disk size: 8750 KB)
+0007.030 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 2300 files added (on-disk size: 8750 KB)
+0007.056 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 2400 files added (on-disk size: 8750 KB)
+0007.087 (0) Zip: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.tmp: 2500 files added (on-disk size: 8750 KB)
+0010.249 (0) Creating zip file manifest (backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.list-temp.tmp)
+0010.317 (0) Successfully created zip file manifest (size: 135601)
+0010.464 (0) Created wpcore zip (0) - 13432.4 KB in 10.4 s (1290.2 KB/s) (sha1: 7f060a96990e0e15ce0af5359c9cbac21de0154f, sha256: 1d4f28dad0352fee7d221d59ccc1fb68857a5bf1478bd2be09742c20c8cbdd29)
+0010.475 (0) Cloud backup selection (1/1): azure with instance (1/1) (last)
+0010.476 (0) Beginning dispatch of backup to remote (azure) (instance identifier s-605f265ac552a7fc80fe7129a15e1196)
+0010.477 (0) Microsoft Azure: upload : attempt: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip
+0010.511 (0) Microsoft Azure: Starting fresh upload to azure://dhpproj/wpsc/backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip from byte: 0; block/chunk: 1
+0010.512 (0) Azure upload: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip (chunks: 7, of size: 2097152) -> azure://dhpproj/wpsc/ (0)
+0010.686 (0) Azure chunked upload: 15.2 % uploaded (1)
+0010.783 (0) Azure chunked upload: 30.5 % uploaded (2)
+0010.869 (0) Azure chunked upload: 45.7 % uploaded (3)
+0010.966 (0) Azure chunked upload: 61 % uploaded (4)
+0011.058 (0) Azure chunked upload: 76.2 % uploaded (5)
+0011.146 (0) Azure chunked upload: 91.5 % uploaded (6)
+0011.213 (0) Azure chunked upload: 100 % uploaded (7)
+0011.215 (0) Microsoft Azure: all chunks uploaded; now commmitting blob blocks
+0011.292 (0) Azure upload: success
+0011.293 (0) Recording as successfully uploaded: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip
+0011.299 (0) Deleting local file: backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip: OK
+0011.307 (0) No backup of others: excluded by user's options
+0011.308 (0) No backup of more: excluded by user's options
+0011.312 (0) Saving backup status to database (elements: 2)
+0011.342 (0) No database backup (wp) - not part of this run
+0011.370 (0) backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip: wpcore: This file has already been successfully uploaded
+0011.370 (0) Saving backup history. Total backup size: 13.1 MB
+0011.398 (0) Resume backup (d5c26a013d06, 0): finish run
+0011.401 (0) There were no more files that needed uploading
+0011.402 (0) Decremented the semaphore (f) by 1
+0011.403 (0) Semaphore (f) unlocked
+0011.404 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0011.406 (0) No email will be sent - this backup set was empty.
+0011.407 (0) The backup has not finished; a resumption is scheduled
+10809.057 (1) Opened log file at time: Tue, 29 Aug 2023 19:38:28 +0000 on http://www.catalystclassroom.com
+10809.058 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.23.3.26 WP: 6.3.1 PHP: 8.0.29 (litespeed, Linux mulan.jagoanhosting.com 3.10.0-962.3.2.lve1.5.77.el7.x86_64 #1 SMP Mon Dec 12 07:06:14 EST 2022 x86_64) MySQL: 10.3.37-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 22.4M | 26M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+10809.059 (1) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/home/catalyst/:/tmp:/var/tmp:/opt/alt/php74/usr/share/pear/:/dev/urandom:/usr/local/lib/php/:/usr/local/php74/lib/php/) (line 408, wp-content/plugins/updraftplus/class-updraftplus.php)
+10809.060 (1) Free space on disk containing Updraft's temporary directory: 1737519.6 MB
+10809.062 (1) Requesting backup semaphore lock (d5c26a013d06)
+10809.063 (1) [Debug] Lock option (updraft_lock_d5c26a013d06, wp_options) was created in the database
+10809.064 (1) [Info] Lock (updraft_lock_d5c26a013d06, wp_options) acquired after initialising the database
+10809.066 (1) Backup run: resumption=1, nonce=d5c26a013d06, file_nonce=d5c26a013d06 begun at=1693327099 (10809s ago), job type=backup, previous check-in=11.21s
+10809.068 (1) Long time past since expected resumption time: approx expected=1693327710.5, now=1693337908.3, diff=10197.8
+10809.072 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+10809.074 (1) We are in "one shot" mode - no resumptions will be scheduled
+10809.099 (1) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/home/catalyst/:/tmp:/var/tmp:/opt/alt/php74/usr/share/pear/:/dev/urandom:/usr/local/lib/php/:/usr/local/php74/lib/php/) (line 168, wp-content/plugins/updraftplus/backup.php)
+10809.100 (1) Checking if we have a zip executable available
+10809.101 (1) Creation of backups of directories: already finished
+10809.102 (1) Saving backup status to database (elements: 2)
+10809.127 (1) No database backup (wp) - not part of this run
+10809.139 (1) backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip: wpcore: This file has already been successfully uploaded
+10809.140 (1) Saving backup history. Total backup size: 13.1 MB
+10809.163 (1) Resume backup (d5c26a013d06, 1): finish run
+10809.164 (1) There were no more files that needed uploading
+10809.165 (1) [Info] Lock option (updraft_lock_d5c26a013d06, wp_options) released
+10809.166 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+10809.168 (1) Deleting zip manifest (backup_2023-08-29-1638_CatalystClassroom_d5c26a013d06-wpcore.zip.list.tmp)
+10809.170 (1) No email will be sent - this backup set was empty.
+10809.170 (1) The backup apparently succeeded (with warnings) and is now complete

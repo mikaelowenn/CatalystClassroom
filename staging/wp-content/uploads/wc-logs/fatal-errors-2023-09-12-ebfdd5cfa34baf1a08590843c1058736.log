@@ -1,0 +1,86 @@
+2023-09-12T14:17:23+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-smush-pro/core/class-configs.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-smush-pro/wp-smush.php:244
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-smush-pro/core/class-rest.php(102): WP_Smush->autoload()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Smush\Core\Rest->register_configs_route()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#14 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-smush-pro/wp-smush.php on line 244
+
+2023-09-12T14:17:37+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/rest-api/Server.php(42): Automattic\Jetpack\Autoloader\jpf04c068a64cbaa8c2d8666c9e308f28d\PHP_Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\RestApi\Server->register_rest_routes()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#14 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-09-12T14:25:14+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/midtrans-woocommerce/abstract/../class/midtrans-admin-settings.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/midtrans-woocommerce/abstract/abstract.midtrans-gateway.php:81
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/midtrans-woocommerce/class/class.midtrans-gateway-paymentrequest.php(39): WC_Gateway_Midtrans_Abstract->init_form_fields()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/midtrans-woocommerce/abstract/abstract.midtrans-gateway.php(22): WC_Gateway_Midtrans_Paymentrequest->init_form_fields()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/midtrans-woocommerce/class/class.midtrans-gateway-paymentrequest.php(21): WC_Gateway_Midtrans_Abstract->__construct()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(97): WC_Gateway_Midtrans_Paymentrequest->__construct()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(961): WC_Payment_Gateways::instance()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/class-woocommerce.php(175): WooCommerce->payment_gateways()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/V1/CheckoutSchema.php(130): WooCommerce->__get()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/V1/AbstractSchema.php(62): Automattic\WooCommerce\StoreApi\Schemas\V1\CheckoutSchema->get_properties()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/V1/AbstractRoute.php(85): Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema->get_item_schema()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/V1/AbstractRoute.php(265): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_item_schema()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/V1/Checkout.php(71): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_context_param()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(114): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_args()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(69): Automattic\WooCommerce\StoreApi\RoutesController->register_routes()
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(27): Automattic\WooCommerce\StoreApi\RoutesController->register_all_routes()
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\StoreApi\StoreApi->Automattic\WooCommerce\StoreApi\{closure}()
+#17 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#18 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#19 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#20 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#21 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#22 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#23 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#24 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#25 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#26 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#27 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#28 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#29 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/midtrans-woocommerce/abstract/abstract.midtrans-gateway.php on line 81
+
+2023-09-12T14:27:34+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/Cart.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(223): Automattic\Jetpack\Autoloader\jpf04c068a64cbaa8c2d8666c9e308f28d\PHP_Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(61): Automattic\WooCommerce\Blocks\BlockTypesController->get_block_types()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-cron.php(46): require_once('/home/catalyst/...')
+#9 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+

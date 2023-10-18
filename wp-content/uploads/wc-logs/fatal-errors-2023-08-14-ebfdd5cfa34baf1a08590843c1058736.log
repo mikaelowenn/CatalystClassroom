@@ -1,0 +1,15 @@
+2023-08-14T10:39:54+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/become_instructor_info.php:6
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/become_instructor_info.php(6): in_array()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(132): include('/home/catalyst/...')
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(140): STM_LMS_Templates::load_lms_template()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/settings.php(15): STM_LMS_Templates::show_lms_template()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(132): include('/home/catalyst/...')
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(140): STM_LMS_Templates::load_lms_template()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/stm-lms-user-settings.php(12): STM_LMS_Templates::show_lms_template()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template-loader.php(106): include('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-blog-header.php(19): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/index.php(17): require('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/become_instructor_info.php on line 6
+

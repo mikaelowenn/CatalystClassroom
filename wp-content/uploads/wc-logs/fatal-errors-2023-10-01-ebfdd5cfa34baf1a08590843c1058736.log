@@ -1,0 +1,490 @@
+2023-10-01T04:04:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function EE_Error::add_error(), 1 passed in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/helpers/EEH_Activation.helper.php on line 785 and exactly 4 expected in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/EE_Error.core.php:448
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/helpers/EEH_Activation.helper.php(785): EE_Error::add_error('There were erro...')
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/helpers/EEH_Activation.helper.php(118): EEH_Activation::create_database_tables()
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/EE_System.core.php(630): EEH_Activation::initialize_db_and_folders()
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-includes/class-wp-hook.php(310): EE_System->initialize_db_if_no_migrations_required('') in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/EE_Error.core.php on line 448
+
+2023-10-01T04:05:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function EE_Error::add_error(), 1 passed in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/helpers/EEH_Activation.helper.php on line 785 and exactly 4 expected in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/EE_Error.core.php:448
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/helpers/EEH_Activation.helper.php(785): EE_Error::add_error('There were erro...')
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/helpers/EEH_Activation.helper.php(118): EEH_Activation::create_database_tables()
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/EE_System.core.php(630): EEH_Activation::initialize_db_and_folders()
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-includes/class-wp-hook.php(310): EE_System->initialize_db_if_no_migrations_required('') in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/EE_Error.core.php on line 448
+
+2023-10-01T04:06:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function EE_Error::add_error(), 1 passed in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/helpers/EEH_Activation.helper.php on line 785 and exactly 4 expected in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/EE_Error.core.php:448
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/helpers/EEH_Activation.helper.php(785): EE_Error::add_error('There were erro...')
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/helpers/EEH_Activation.helper.php(118): EEH_Activation::create_database_tables()
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/EE_System.core.php(630): EEH_Activation::initialize_db_and_folders()
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-includes/class-wp-hook.php(310): EE_System->initialize_db_if_no_migrations_required('') in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/event-espresso-decaf/core/EE_Error.core.php on line 448
+
+2023-10-01T04:06:44+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocomme in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2023-10-01T04:29:51+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Database error. in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/ in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T04:29:53+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T04:31:34+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T04:31:39+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:41+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Database error. in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/ in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:43+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:44+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:44+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:52+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:52+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:53+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:53+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:53+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:53+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:53+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:54+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:57+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:58+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:58+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:58+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:59+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:59+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:59+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:42:59+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:00+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:00+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:00+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:01+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:01+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:01+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:01+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:02+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:02+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:02+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:02+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:03+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:03+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:03+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:03+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:03+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:03+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:03+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:03+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:08+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:09+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:10+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:10+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:10+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:10+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:43:10+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:47:02+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:47:40+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:47:44+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:47:47+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:50:33+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:51:01+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:51:10+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:51:55+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:52:32+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T13:55:47+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T14:19:27+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T14:19:36+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T14:21:21+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T14:21:48+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T14:21:59+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+
+2023-10-01T14:22:02+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+Stack trace:
+#0 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/pack in /Applications/MAMP/htdocs/catalystclassroom/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 126
+

@@ -1,0 +1,501 @@
+2023-09-21T09:17:26+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Formatters/MoneyFormatter.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Formatters.php(45): Automattic\Jetpack\Autoloader\jpa291a41a79c4717f52ec2c309a1556bf\PHP_Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(101): Automattic\WooCommerce\StoreApi\Formatters->register()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\StoreApi\StoreApi::Automattic\WooCommerce\StoreApi\{closure}()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(93): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\StoreApi\StoreApi::Automattic\WooCommerce\StoreApi\{closure}()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(85): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\StoreApi\StoreApi::Automattic\WooCommerce\StoreApi\{closure}()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(77): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\StoreApi\StoreApi::Automattic\WooCommerce\StoreApi\{closure}()
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#17 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(27): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#18 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\StoreApi\StoreApi->Automattic\WooCommerce\StoreApi\{closure}()
+#19 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#20 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#21 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#22 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#23 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#24 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#25 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#26 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#27 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#28 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#29 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#30 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#31 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-09-21T09:17:26+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/rest-api/Server.php(42): Automattic\Jetpack\Autoloader\jpa291a41a79c4717f52ec2c309a1556bf\PHP_Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\RestApi\Server->register_rest_routes()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#14 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-09-21T09:17:50+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/src/Admin/API/Leaderboards.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpa291a41a79c4717f52ec2c309a1556bf\PHP_Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#14 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-09-21T14:54:00+00:00 CRITICAL Uncaught Error: Class "Elementor\Widget_social_icons" not found in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php:105
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(328): Elementor\Widgets_Manager->init_widgets()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor-pro/modules/global-widget/module.php(46): Elementor\Widgets_Manager->get_widget_types()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): ElementorPro\Modules\GlobalWidget\Module->add_templates_localize_data()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor-pro/core/editor/editor.php(60): apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/base-object.php(142): ElementorPro\Core\Editor\Editor->get_init_settings()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor-pro/core/editor/editor.php(92): Elementor\Core\Base\App->print_config()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): ElementorPro\Core\Editor\Editor->enqueue_editor_scripts()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/editor/editor.php(353): do_action()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Elementor\Core\Editor\Editor->enqueue_scripts()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/script-loader.php(2225): do_action()
+#17 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): wp_enqueue_scripts()
+#18 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#19 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#20 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/general-template.php(3053): do_action()
+#21 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/editor-templates/editor-wrapper.php(31): wp_head()
+#22 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/editor/loader/v1/editor-v1-loader.php(110): include('/home/catalyst/...')
+#23 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/editor/editor.php(163): Elementor\Core\Editor\Loader\V1\Editor_V1_Loader->print_root_template()
+#24 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Elementor\Core\Editor\Editor->init()
+#25 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#26 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#27 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin.php(419): do_action()
+#28 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/post.php(12): require_once('/home/catalyst/...')
+#29 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php on line 105
+
+2023-09-21T15:07:26+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/essential-addons-for-elementor-lite//includes/Elements/Fancy_Text.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/essential-addons-for-elementor-lite/autoload.php:27
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Elements.php(88): {closure}()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Essential_Addons_Elementor\Classes\Bootstrap->register_elements()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(138): do_action()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(328): Elementor\Widgets_Manager->init_widgets()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/elements.php(74): Elementor\Widgets_Manager->get_widget_types()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/document.php(322): Elementor\Elements_Manager->create_element_instance()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(445): Elementor\Core\Base\Document->render_element()
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(188): do_action()
+#15 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/essential-addons-for-elementor-lite/autoload.php on line 27
+
+2023-09-21T15:07:45+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/includes/elementor/widgets/ms_lms_courses_searchbox.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/includes/elementor/StmLmsElementor.php:194
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/includes/elementor/StmLmsElementor.php(205): StmLmsElementor\Plugin->includes()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): StmLmsElementor\Plugin->register_widgets()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(138): do_action()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(328): Elementor\Widgets_Manager->init_widgets()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/elements.php(74): Elementor\Widgets_Manager->get_widget_types()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/document.php(322): Elementor\Elements_Manager->create_element_instance()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(445): Elementor\Core\Base\Document->render_element()
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(188): do_action()
+#15 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/includes/elementor/StmLmsElementor.php on line 194
+
+2023-09-21T15:07:55+00:00 CRITICAL Uncaught Error: Class "ElementorPro\Modules\Woocommerce\Widgets\Elements" not found in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/module.php:331
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Elementor\Core\Base\Module->init_widgets()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(138): do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(328): Elementor\Widgets_Manager->init_widgets()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/elements.php(74): Elementor\Widgets_Manager->get_widget_types()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/document.php(322): Elementor\Elements_Manager->create_element_instance()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(445): Elementor\Core\Base\Document->render_element()
+#8 [internal function]: Elementor\Widgets_Manager->ajax_render_widget()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(188): do_action()
+#14 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/module.php on line 331
+
+2023-09-21T15:07:55+00:00 CRITICAL Uncaught Error: Class "ElementorPro\Modules\Woocommerce\Widgets\Elements" not found in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/module.php:331
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Elementor\Core\Base\Module->init_widgets()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(138): do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(328): Elementor\Widgets_Manager->init_widgets()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/elements.php(74): Elementor\Widgets_Manager->get_widget_types()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/document.php(322): Elementor\Elements_Manager->create_element_instance()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/managers/widgets.php(445): Elementor\Core\Base\Document->render_element()
+#8 [internal function]: Elementor\Widgets_Manager->ajax_render_widget()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(188): do_action()
+#14 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/base/module.php on line 331
+
+2023-09-21T15:21:57+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:22:12+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:22:14+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:22:27+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:22:42+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:22:53+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:22:57+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:00+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:09+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:12+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:12+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:20+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:22+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:28+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:46+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:47+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:49+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:23:53+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:24:02+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:24:28+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+
+2023-09-21T15:24:44+00:00 CRITICAL Uncaught TypeError: ftp_pwd(): Argument #1 ($ftp) must be of type resource, null given in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(230): ftp_pwd()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php(468): WP_Filesystem_FTPext->cwd()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/generate_styles.php(27): WP_Filesystem_FTPext->is_dir()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): stm_lms_generate_styles()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+

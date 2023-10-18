@@ -1,0 +1,30 @@
+2023-09-25T08:23:01+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/compatibility-check.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php:345
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php(225): MonsterInsights_Lite->check_compatibility()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php(755): MonsterInsights_Lite::get_instance()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php(854): MonsterInsights_Lite()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): MonsterInsights()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-settings.php(495): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 345
+
+2023-09-25T21:46:36+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/become_instructor_info.php:6
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/become_instructor_info.php(6): in_array()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(132): include('/home/catalyst/...')
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(140): STM_LMS_Templates::load_lms_template()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/settings.php(15): STM_LMS_Templates::show_lms_template()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(132): include('/home/catalyst/...')
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(140): STM_LMS_Templates::load_lms_template()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/stm-lms-user-settings.php(12): STM_LMS_Templates::show_lms_template()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template-loader.php(106): include('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-blog-header.php(19): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/index.php(17): require('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/become_instructor_info.php on line 6
+

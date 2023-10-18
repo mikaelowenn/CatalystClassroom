@@ -1,0 +1,80 @@
+//
+    global $wpdb;
+	
+	$prefix = $wpdb->prefix;
+	$uid = get_current_user_id();
+
+	$request_check = "select s.membership_id from `{$prefix}users` as u inner join `{$prefix}pmpro_memberships_users` s on u.ID = s.user_id and s.status = 'active' and s.enddate > CURRENT_TIME and s.user_id = {$uid} limit 1";
+	
+	$check = $wpdb->get_results( $request_check, ARRAY_A ); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+	echo $request_check;
+	if (empty($check)) {
+	    echo "aaa";
+		$req_member_products = "select post_id from `{$prefix}_postmeta` where meta_key = '_membership_product_level'";
+		$member_products = $wpdb->get_results( $req_member_products, ARRAY_A ); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+		if (!empty($member_products)) {
+			foreach ($member_products as &$value) {
+				echo $value['post_id'];
+			}
+		}
+	}
+//
+    global $wpdb;
+	
+	$prefix = $wpdb->prefix;
+	$uid = get_current_user_id();
+
+	$request_check = "select s.membership_id from `{$prefix}users` as u inner join `{$prefix}pmpro_memberships_users` s on u.ID = s.user_id and s.status = 'active' and s.enddate > CURRENT_TIME and s.user_id = {$uid} limit 1";
+	
+	$check = $wpdb->get_results( $request_check, ARRAY_A ); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+	echo $request_check;
+	if (!empty($check)) {
+	    echo "aaa";
+		$req_member_products = "select post_id from `{$prefix}_postmeta` where meta_key = '_membership_product_level'";
+		$member_products = $wpdb->get_results( $req_member_products, ARRAY_A ); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+		if (!empty($member_products)) {
+			foreach ($member_products as &$value) {
+				echo $value['post_id'];
+			}
+		}
+	}
+//
+    global $wpdb;
+	
+	$prefix = $wpdb->prefix;
+	$uid = get_current_user_id();
+
+	$request_check = "select s.membership_id from `{$prefix}users` as u inner join `{$prefix}pmpro_memberships_users` s on u.ID = s.user_id and s.status = 'active' and s.enddate > CURRENT_TIME and s.user_id = {$uid} limit 1";
+	
+	$check = $wpdb->get_results( $request_check, ARRAY_A ); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+	echo $request_check;
+	if (!empty($check)) {
+	    echo "aaa";
+		$req_member_products = "select post_id from `{$prefix}postmeta` where meta_key = '_membership_product_level'";
+		$member_products = $wpdb->get_results( $req_member_products, ARRAY_A ); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+		if (!empty($member_products)) {
+			foreach ($member_products as &$value) {
+				echo $value['post_id'];
+			}
+		}
+	}
+//
+    global $wpdb;
+	
+	$prefix = $wpdb->prefix;
+	$uid = get_current_user_id();
+
+	$request_check = "select s.membership_id from `{$prefix}users` as u inner join `{$prefix}pmpro_memberships_users` s on u.ID = s.user_id and s.status = 'active' and s.enddate > CURRENT_TIME and s.user_id = {$uid} limit 1";
+	
+	$check = $wpdb->get_results( $request_check, ARRAY_A ); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+	echo $request_check;
+	if (!empty($check)) {
+	    echo "aaa\n";
+		$req_member_products = "select post_id from `{$prefix}postmeta` where meta_key = '_membership_product_level'";
+		$member_products = $wpdb->get_results( $req_member_products, ARRAY_A ); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+		if (!empty($member_products)) {
+			foreach ($member_products as &$value) {
+				echo $value['post_id'] . "\n";
+			}
+		}
+	}

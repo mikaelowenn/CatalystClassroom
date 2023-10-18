@@ -1,0 +1,1499 @@
+0000.001 (0) Opened log file at time: Sat, 16 Sep 2023 04:24:08 +0000 on https://www.catalystclassroom.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.23.3.26 WP: 6.3.1 PHP: 8.0.29 (litespeed, Linux mulan.jagoanhosting.com 3.10.0-962.3.2.lve1.5.77.el7.x86_64 #1 SMP Mon Dec 12 07:06:14 EST 2022 x86_64) MySQL: 10.3.37-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 22.9M | 26M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 1686809.3 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.015 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.018 (0) Set semaphore last lock (fd) time to 2023-09-16 04:24:08
+0000.019 (0) Semaphore lock (fd) complete
+0000.024 (0) Backup run: resumption=0, nonce=79dec8af8566, file_nonce=79dec8af8566 begun at=1694838248 (0s ago), job type=backup, label=Automatic backup before update caused by entities (plugins)
+0000.025 (0) A resumption will be scheduled for the cloud backup stage
+0000.026 (0) Scheduling a resumption (1) after 300 seconds (1694838548) in case this run gets aborted
+0000.052 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/home/catalyst/:/tmp:/var/tmp:/opt/alt/php74/usr/share/pear/:/dev/urandom:/usr/local/lib/php/:/usr/local/php74/lib/php/) (line 168, wp-content/plugins/updraftplus/backup.php)
+0000.053 (0) Checking if we have a zip executable available
+0000.055 (0) Creation of backups of directories: beginning
+0000.058 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.064 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/home/catalyst/:/tmp:/var/tmp:/opt/alt/php74/usr/share/pear/:/dev/urandom:/usr/local/lib/php/:/usr/local/php74/lib/php/) (line 408, wp-content/plugins/updraftplus/class-updraftplus.php)
+0019.390 (0) Total entities for the zip file: 6556 directories, 34616 files (0 skipped as non-modified), 495.7 MB
+0019.401 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0019.868 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 100 files added (on-disk size: 1270.8 KB)
+0019.899 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 200 files added (on-disk size: 1270.8 KB)
+0019.936 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 300 files added (on-disk size: 1270.8 KB)
+0019.974 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 400 files added (on-disk size: 1270.8 KB)
+0020.011 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 500 files added (on-disk size: 1270.8 KB)
+0020.046 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 600 files added (on-disk size: 1270.8 KB)
+0020.084 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 700 files added (on-disk size: 1270.8 KB)
+0020.119 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 800 files added (on-disk size: 1270.8 KB)
+0020.160 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 900 files added (on-disk size: 1270.8 KB)
+0020.201 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 1000 files added (on-disk size: 1270.8 KB)
+0020.204 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.1 MB, 34616 files batched, 1001 (1002) added so far); re-opening (prior size: 1270.8 KB)
+0023.254 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 1100 files added (on-disk size: 7947.5 KB)
+0023.290 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 1200 files added (on-disk size: 7947.5 KB)
+0023.331 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 1300 files added (on-disk size: 7947.5 KB)
+0023.364 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 1400 files added (on-disk size: 7947.5 KB)
+0023.397 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 1500 files added (on-disk size: 7947.5 KB)
+0023.430 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 1600 files added (on-disk size: 7947.5 KB)
+0023.463 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 1700 files added (on-disk size: 7947.5 KB)
+0023.497 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 1800 files added (on-disk size: 7947.5 KB)
+0023.540 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 1900 files added (on-disk size: 7947.5 KB)
+0023.582 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 2000 files added (on-disk size: 7947.5 KB)
+0023.584 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.2 MB, 34616 files batched, 1001 (2003) added so far); re-opening (prior size: 7947.5 KB)
+0024.959 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 2100 files added (on-disk size: 9617.2 KB)
+0024.998 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 2200 files added (on-disk size: 9617.2 KB)
+0025.036 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 2300 files added (on-disk size: 9617.2 KB)
+0025.085 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 2400 files added (on-disk size: 9617.2 KB)
+0025.119 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 2500 files added (on-disk size: 9617.2 KB)
+0025.151 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 2600 files added (on-disk size: 9617.2 KB)
+0025.190 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 2700 files added (on-disk size: 9617.2 KB)
+0025.238 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 2800 files added (on-disk size: 9617.2 KB)
+0025.274 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 2900 files added (on-disk size: 9617.2 KB)
+0025.314 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 3000 files added (on-disk size: 9617.2 KB)
+0025.325 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.2 MB, 34616 files batched, 1001 (3004) added so far); re-opening (prior size: 9617.2 KB)
+0026.055 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 3100 files added (on-disk size: 10188.5 KB)
+0026.092 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 3200 files added (on-disk size: 10188.5 KB)
+0026.138 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 3300 files added (on-disk size: 10188.5 KB)
+0026.189 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 3400 files added (on-disk size: 10188.5 KB)
+0026.228 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 3500 files added (on-disk size: 10188.5 KB)
+0026.264 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 3600 files added (on-disk size: 10188.5 KB)
+0026.305 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 3700 files added (on-disk size: 10188.5 KB)
+0026.347 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 3800 files added (on-disk size: 10188.5 KB)
+0026.392 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 3900 files added (on-disk size: 10188.5 KB)
+0026.444 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 4000 files added (on-disk size: 10188.5 KB)
+0026.448 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (0.2 MB, 34616 files batched, 1001 (4005) added so far); re-opening (prior size: 10188.5 KB)
+0027.839 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 4100 files added (on-disk size: 10542 KB)
+0027.884 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 4200 files added (on-disk size: 10542 KB)
+0027.933 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 4300 files added (on-disk size: 10542 KB)
+0027.987 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 4400 files added (on-disk size: 10542 KB)
+0028.043 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 4500 files added (on-disk size: 10542 KB)
+0028.095 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 4600 files added (on-disk size: 10542 KB)
+0028.140 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 4700 files added (on-disk size: 10542 KB)
+0028.187 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 4800 files added (on-disk size: 10542 KB)
+0028.233 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 4900 files added (on-disk size: 10542 KB)
+0028.282 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 5000 files added (on-disk size: 10542 KB)
+0028.288 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (0.2 MB, 34616 files batched, 1001 (5006) added so far); re-opening (prior size: 10542 KB)
+0029.053 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 5100 files added (on-disk size: 10934.8 KB)
+0029.090 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 5200 files added (on-disk size: 10934.8 KB)
+0029.125 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 5300 files added (on-disk size: 10934.8 KB)
+0029.161 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 5400 files added (on-disk size: 10934.8 KB)
+0029.194 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 5500 files added (on-disk size: 10934.8 KB)
+0029.229 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 5600 files added (on-disk size: 10934.8 KB)
+0029.264 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 5700 files added (on-disk size: 10934.8 KB)
+0029.298 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 5800 files added (on-disk size: 10934.8 KB)
+0029.334 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 5900 files added (on-disk size: 10934.8 KB)
+0029.368 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 6000 files added (on-disk size: 10934.8 KB)
+0029.371 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.6 MB, 34616 files batched, 1001 (6007) added so far); re-opening (prior size: 10934.8 KB)
+0032.039 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 6100 files added (on-disk size: 17728.3 KB)
+0032.073 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 6200 files added (on-disk size: 17728.3 KB)
+0032.108 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 6300 files added (on-disk size: 17728.3 KB)
+0032.144 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 6400 files added (on-disk size: 17728.3 KB)
+0032.177 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 6500 files added (on-disk size: 17728.3 KB)
+0032.206 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 6600 files added (on-disk size: 17728.3 KB)
+0032.241 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 6700 files added (on-disk size: 17728.3 KB)
+0032.278 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 6800 files added (on-disk size: 17728.3 KB)
+0032.314 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 6900 files added (on-disk size: 17728.3 KB)
+0032.351 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 7000 files added (on-disk size: 17728.3 KB)
+0032.355 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.5 MB, 34616 files batched, 1001 (7008) added so far); re-opening (prior size: 17728.3 KB)
+0036.445 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 7100 files added (on-disk size: 21810.1 KB)
+0036.494 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 7200 files added (on-disk size: 21810.1 KB)
+0036.532 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 7300 files added (on-disk size: 21810.1 KB)
+0036.567 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 7400 files added (on-disk size: 21810.1 KB)
+0036.601 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 7500 files added (on-disk size: 21810.1 KB)
+0036.638 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 7600 files added (on-disk size: 21810.1 KB)
+0036.674 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 7700 files added (on-disk size: 21810.1 KB)
+0036.712 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 7800 files added (on-disk size: 21810.1 KB)
+0036.745 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 7900 files added (on-disk size: 21810.1 KB)
+0036.778 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 8000 files added (on-disk size: 21810.1 KB)
+0036.782 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.3 MB, 34616 files batched, 1001 (8009) added so far); re-opening (prior size: 21810.1 KB)
+0041.733 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 8100 files added (on-disk size: 27967.4 KB)
+0041.770 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 8200 files added (on-disk size: 27967.4 KB)
+0041.821 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 8300 files added (on-disk size: 27967.4 KB)
+0041.873 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 8400 files added (on-disk size: 27967.4 KB)
+0041.921 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 8500 files added (on-disk size: 27967.4 KB)
+0041.969 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 8600 files added (on-disk size: 27967.4 KB)
+0042.008 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 8700 files added (on-disk size: 27967.4 KB)
+0042.047 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 8800 files added (on-disk size: 27967.4 KB)
+0042.083 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 8900 files added (on-disk size: 27967.4 KB)
+0042.120 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 9000 files added (on-disk size: 27967.4 KB)
+0042.125 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.8 MB, 34616 files batched, 1001 (9010) added so far); re-opening (prior size: 27967.4 KB)
+0046.309 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 9100 files added (on-disk size: 33592.1 KB)
+0046.344 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 9200 files added (on-disk size: 33592.1 KB)
+0046.380 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 9300 files added (on-disk size: 33592.1 KB)
+0046.415 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 9400 files added (on-disk size: 33592.1 KB)
+0046.450 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 9500 files added (on-disk size: 33592.1 KB)
+0046.484 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 9600 files added (on-disk size: 33592.1 KB)
+0046.515 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 34616 files batched, 684 (9694) added so far); re-opening (prior size: 33592.1 KB)
+0050.759 (0) A useful amount of data was added after this amount of zip processing: 4.9 s (normalised: 4.9 s, rate: 5180.4 KB/s)
+0050.761 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.9428269863129, normalised_time=4.9416587940389, max_time=50.759814977646, data points known=1, old_max_bytes=26214400, new_max_bytes=161561712)
+0050.835 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 9700 files added (on-disk size: 38683.8 KB)
+0050.871 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 9800 files added (on-disk size: 38683.8 KB)
+0050.905 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 9900 files added (on-disk size: 38683.8 KB)
+0050.941 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 10000 files added (on-disk size: 38683.8 KB)
+0050.975 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 10100 files added (on-disk size: 38683.8 KB)
+0051.008 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 10200 files added (on-disk size: 38683.8 KB)
+0051.042 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 10300 files added (on-disk size: 38683.8 KB)
+0051.076 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 10400 files added (on-disk size: 38683.8 KB)
+0051.111 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 10500 files added (on-disk size: 38683.8 KB)
+0051.151 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 10600 files added (on-disk size: 38683.8 KB)
+0051.182 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.5 MB, 34616 files batched, 1001 (10695) added so far); re-opening (prior size: 38683.8 KB)
+0057.026 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 10700 files added (on-disk size: 48239.7 KB)
+0057.067 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 10800 files added (on-disk size: 48239.7 KB)
+0057.108 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 10900 files added (on-disk size: 48239.7 KB)
+0057.149 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 11000 files added (on-disk size: 48239.7 KB)
+0057.189 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 11100 files added (on-disk size: 48239.7 KB)
+0057.230 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 11200 files added (on-disk size: 48239.7 KB)
+0057.270 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 11300 files added (on-disk size: 48239.7 KB)
+0057.315 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 11400 files added (on-disk size: 48239.7 KB)
+0057.356 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 11500 files added (on-disk size: 48239.7 KB)
+0057.398 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 11600 files added (on-disk size: 48239.7 KB)
+0057.450 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.7 MB, 34616 files batched, 1001 (11696) added so far); re-opening (prior size: 48239.7 KB)
+0060.847 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 11700 files added (on-disk size: 49775.9 KB)
+0060.889 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 11800 files added (on-disk size: 49775.9 KB)
+0060.931 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 11900 files added (on-disk size: 49775.9 KB)
+0060.971 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 12000 files added (on-disk size: 49775.9 KB)
+0061.008 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 12100 files added (on-disk size: 49775.9 KB)
+0061.045 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 12200 files added (on-disk size: 49775.9 KB)
+0061.087 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 12300 files added (on-disk size: 49775.9 KB)
+0061.129 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 12400 files added (on-disk size: 49775.9 KB)
+0061.172 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 12500 files added (on-disk size: 49775.9 KB)
+0061.206 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 12600 files added (on-disk size: 49775.9 KB)
+0061.236 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.1 MB, 34616 files batched, 1001 (12697) added so far); re-opening (prior size: 49775.9 KB)
+0063.679 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 12700 files added (on-disk size: 57475.3 KB)
+0063.715 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 12800 files added (on-disk size: 57475.3 KB)
+0063.754 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 12900 files added (on-disk size: 57475.3 KB)
+0063.788 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 13000 files added (on-disk size: 57475.3 KB)
+0063.820 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 13100 files added (on-disk size: 57475.3 KB)
+0063.862 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 13200 files added (on-disk size: 57475.3 KB)
+0063.909 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 13300 files added (on-disk size: 57475.3 KB)
+0063.957 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 13400 files added (on-disk size: 57475.3 KB)
+0063.996 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 13500 files added (on-disk size: 57475.3 KB)
+0064.036 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 13600 files added (on-disk size: 57475.3 KB)
+0064.082 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.3 MB, 34616 files batched, 1001 (13698) added so far); re-opening (prior size: 57475.3 KB)
+0066.549 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 13700 files added (on-disk size: 60578.8 KB)
+0066.591 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 13800 files added (on-disk size: 60578.8 KB)
+0066.630 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 13900 files added (on-disk size: 60578.8 KB)
+0066.666 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 14000 files added (on-disk size: 60578.8 KB)
+0066.703 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 14100 files added (on-disk size: 60578.8 KB)
+0066.738 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 14200 files added (on-disk size: 60578.8 KB)
+0066.777 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 14300 files added (on-disk size: 60578.8 KB)
+0066.815 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 14400 files added (on-disk size: 60578.8 KB)
+0066.855 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 14500 files added (on-disk size: 60578.8 KB)
+0066.891 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 14600 files added (on-disk size: 60578.8 KB)
+0066.932 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.5 MB, 34616 files batched, 1001 (14699) added so far); re-opening (prior size: 60578.8 KB)
+0069.241 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 14700 files added (on-disk size: 64065.9 KB)
+0069.284 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 14800 files added (on-disk size: 64065.9 KB)
+0069.325 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 14900 files added (on-disk size: 64065.9 KB)
+0069.365 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 15000 files added (on-disk size: 64065.9 KB)
+0069.404 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 15100 files added (on-disk size: 64065.9 KB)
+0069.447 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 15200 files added (on-disk size: 64065.9 KB)
+0069.490 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 15300 files added (on-disk size: 64065.9 KB)
+0069.538 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 15400 files added (on-disk size: 64065.9 KB)
+0069.581 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 15500 files added (on-disk size: 64065.9 KB)
+0069.622 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 15600 files added (on-disk size: 64065.9 KB)
+0069.660 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (59.4 MB, 34616 files batched, 1001 (15700) added so far); re-opening (prior size: 64065.9 KB)
+0076.798 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 15700 files added (on-disk size: 119403.6 KB)
+0076.943 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 15800 files added (on-disk size: 119403.6 KB)
+0076.978 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 15900 files added (on-disk size: 119403.6 KB)
+0077.018 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 16000 files added (on-disk size: 119403.6 KB)
+0077.056 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 16100 files added (on-disk size: 119403.6 KB)
+0077.092 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 16200 files added (on-disk size: 119403.6 KB)
+0077.129 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 16300 files added (on-disk size: 119403.6 KB)
+0077.164 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 16400 files added (on-disk size: 119403.6 KB)
+0077.199 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 16500 files added (on-disk size: 119403.6 KB)
+0077.234 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 16600 files added (on-disk size: 119403.6 KB)
+0077.273 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 16700 files added (on-disk size: 119403.6 KB)
+0077.275 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.3 MB, 34616 files batched, 1001 (16701) added so far); re-opening (prior size: 119403.6 KB)
+0089.038 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 16800 files added (on-disk size: 122587.9 KB)
+0089.074 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 16900 files added (on-disk size: 122587.9 KB)
+0089.106 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 17000 files added (on-disk size: 122587.9 KB)
+0089.145 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 17100 files added (on-disk size: 122587.9 KB)
+0089.180 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 17200 files added (on-disk size: 122587.9 KB)
+0089.210 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 17300 files added (on-disk size: 122587.9 KB)
+0089.241 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 17400 files added (on-disk size: 122587.9 KB)
+0089.277 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 17500 files added (on-disk size: 122587.9 KB)
+0089.313 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 17600 files added (on-disk size: 122587.9 KB)
+0089.346 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 17700 files added (on-disk size: 122587.9 KB)
+0089.348 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (35.2 MB, 34616 files batched, 1001 (17702) added so far); re-opening (prior size: 122587.9 KB)
+0099.841 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 17800 files added (on-disk size: 147168.8 KB)
+0099.880 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 17900 files added (on-disk size: 147168.8 KB)
+0099.918 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 18000 files added (on-disk size: 147168.8 KB)
+0099.953 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 18100 files added (on-disk size: 147168.8 KB)
+0099.992 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 18200 files added (on-disk size: 147168.8 KB)
+0100.021 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 18300 files added (on-disk size: 147168.8 KB)
+0100.052 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 18400 files added (on-disk size: 147168.8 KB)
+0100.081 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 18500 files added (on-disk size: 147168.8 KB)
+0100.110 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 18600 files added (on-disk size: 147168.8 KB)
+0100.141 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 18700 files added (on-disk size: 147168.8 KB)
+0100.142 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.9 MB, 34616 files batched, 1001 (18703) added so far); re-opening (prior size: 147168.8 KB)
+0116.336 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 18800 files added (on-disk size: 152659 KB)
+0116.368 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 18900 files added (on-disk size: 152659 KB)
+0116.401 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 19000 files added (on-disk size: 152659 KB)
+0116.435 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 19100 files added (on-disk size: 152659 KB)
+0116.472 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 19200 files added (on-disk size: 152659 KB)
+0116.517 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 19300 files added (on-disk size: 152659 KB)
+0116.552 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 19400 files added (on-disk size: 152659 KB)
+0116.589 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 19500 files added (on-disk size: 152659 KB)
+0116.624 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 19600 files added (on-disk size: 152659 KB)
+0116.658 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 19700 files added (on-disk size: 152659 KB)
+0116.660 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.5 MB, 34616 files batched, 1001 (19704) added so far); re-opening (prior size: 152659 KB)
+0127.590 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 19800 files added (on-disk size: 156178.2 KB)
+0127.636 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 19900 files added (on-disk size: 156178.2 KB)
+0127.680 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 20000 files added (on-disk size: 156178.2 KB)
+0127.717 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 20100 files added (on-disk size: 156178.2 KB)
+0127.751 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 20200 files added (on-disk size: 156178.2 KB)
+0127.787 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 20300 files added (on-disk size: 156178.2 KB)
+0127.822 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 20400 files added (on-disk size: 156178.2 KB)
+0127.857 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 20500 files added (on-disk size: 156178.2 KB)
+0127.893 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 20600 files added (on-disk size: 156178.2 KB)
+0127.927 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 20700 files added (on-disk size: 156178.2 KB)
+0127.930 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.8 MB, 34616 files batched, 1001 (20705) added so far); re-opening (prior size: 156178.2 KB)
+0137.004 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 20800 files added (on-disk size: 160747.9 KB)
+0137.043 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 20900 files added (on-disk size: 160747.9 KB)
+0137.079 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 21000 files added (on-disk size: 160747.9 KB)
+0137.110 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 21100 files added (on-disk size: 160747.9 KB)
+0137.148 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 21200 files added (on-disk size: 160747.9 KB)
+0137.208 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 21300 files added (on-disk size: 160747.9 KB)
+0137.259 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 21400 files added (on-disk size: 160747.9 KB)
+0137.316 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 21500 files added (on-disk size: 160747.9 KB)
+0137.366 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 21600 files added (on-disk size: 160747.9 KB)
+0137.418 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 21700 files added (on-disk size: 160747.9 KB)
+0137.428 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.9 MB, 34616 files batched, 1001 (21706) added so far); re-opening (prior size: 160747.9 KB)
+0153.684 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 21800 files added (on-disk size: 162578.2 KB)
+0153.741 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 21900 files added (on-disk size: 162578.2 KB)
+0153.792 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 22000 files added (on-disk size: 162578.2 KB)
+0153.844 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 22100 files added (on-disk size: 162578.2 KB)
+0153.895 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 22200 files added (on-disk size: 162578.2 KB)
+0153.943 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 22300 files added (on-disk size: 162578.2 KB)
+0153.991 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 22400 files added (on-disk size: 162578.2 KB)
+0154.038 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 22500 files added (on-disk size: 162578.2 KB)
+0154.083 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 22600 files added (on-disk size: 162578.2 KB)
+0154.129 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 22700 files added (on-disk size: 162578.2 KB)
+0154.135 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2 MB, 34616 files batched, 1001 (22707) added so far); re-opening (prior size: 162578.2 KB)
+0170.474 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 22800 files added (on-disk size: 163638.6 KB)
+0170.516 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 22900 files added (on-disk size: 163638.6 KB)
+0170.556 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 23000 files added (on-disk size: 163638.6 KB)
+0170.596 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 23100 files added (on-disk size: 163638.6 KB)
+0170.633 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 23200 files added (on-disk size: 163638.6 KB)
+0170.669 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 23300 files added (on-disk size: 163638.6 KB)
+0170.708 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 23400 files added (on-disk size: 163638.6 KB)
+0170.749 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 23500 files added (on-disk size: 163638.6 KB)
+0170.792 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 23600 files added (on-disk size: 163638.6 KB)
+0170.831 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 23700 files added (on-disk size: 163638.6 KB)
+0170.836 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.2 MB, 34616 files batched, 1001 (23708) added so far); re-opening (prior size: 163638.6 KB)
+0184.377 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 23800 files added (on-disk size: 172295.7 KB)
+0184.438 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 23900 files added (on-disk size: 172295.7 KB)
+0184.500 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 24000 files added (on-disk size: 172295.7 KB)
+0184.541 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 24100 files added (on-disk size: 172295.7 KB)
+0184.578 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 24200 files added (on-disk size: 172295.7 KB)
+0184.614 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 24300 files added (on-disk size: 172295.7 KB)
+0184.652 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 24400 files added (on-disk size: 172295.7 KB)
+0184.688 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 24500 files added (on-disk size: 172295.7 KB)
+0184.720 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 24600 files added (on-disk size: 172295.7 KB)
+0184.755 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 24700 files added (on-disk size: 172295.7 KB)
+0184.760 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.7 MB, 34616 files batched, 1001 (24709) added so far); re-opening (prior size: 172295.7 KB)
+0203.423 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 24800 files added (on-disk size: 173953.9 KB)
+0203.464 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 24900 files added (on-disk size: 173953.9 KB)
+0203.505 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 25000 files added (on-disk size: 173953.9 KB)
+0203.537 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 25100 files added (on-disk size: 173953.9 KB)
+0203.578 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 25200 files added (on-disk size: 173953.9 KB)
+0203.623 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 25300 files added (on-disk size: 173953.9 KB)
+0203.664 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 25400 files added (on-disk size: 173953.9 KB)
+0203.706 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 25500 files added (on-disk size: 173953.9 KB)
+0203.747 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 25600 files added (on-disk size: 173953.9 KB)
+0203.785 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 25700 files added (on-disk size: 173953.9 KB)
+0203.789 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.6 MB, 34616 files batched, 1001 (25710) added so far); re-opening (prior size: 173953.9 KB)
+0217.473 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 25800 files added (on-disk size: 177440.1 KB)
+0217.509 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 25900 files added (on-disk size: 177440.1 KB)
+0217.544 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 26000 files added (on-disk size: 177440.1 KB)
+0217.578 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 26100 files added (on-disk size: 177440.1 KB)
+0217.613 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 26200 files added (on-disk size: 177440.1 KB)
+0217.645 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 26300 files added (on-disk size: 177440.1 KB)
+0217.681 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 26400 files added (on-disk size: 177440.1 KB)
+0217.717 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 26500 files added (on-disk size: 177440.1 KB)
+0217.755 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 26600 files added (on-disk size: 177440.1 KB)
+0217.794 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 26700 files added (on-disk size: 177440.1 KB)
+0217.799 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (29.8 MB, 34616 files batched, 1001 (26711) added so far); re-opening (prior size: 177440.1 KB)
+0238.132 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 26800 files added (on-disk size: 184402.2 KB)
+0238.173 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 26900 files added (on-disk size: 184402.2 KB)
+0238.208 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 27000 files added (on-disk size: 184402.2 KB)
+0238.244 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 27100 files added (on-disk size: 184402.2 KB)
+0238.284 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 27200 files added (on-disk size: 184402.2 KB)
+0238.321 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 27300 files added (on-disk size: 184402.2 KB)
+0238.356 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 27400 files added (on-disk size: 184402.2 KB)
+0238.390 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 27500 files added (on-disk size: 184402.2 KB)
+0238.425 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 27600 files added (on-disk size: 184402.2 KB)
+0238.462 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 27700 files added (on-disk size: 184402.2 KB)
+0238.467 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.1 MB, 34616 files batched, 1001 (27712) added so far); re-opening (prior size: 184402.2 KB)
+0255.694 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.696 (0) Rescheduling resumption 1: moving to 345 seconds from now (1694838848)
+0255.699 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.886 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 27800 files added (on-disk size: 192413 KB)
+0255.925 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 27900 files added (on-disk size: 192413 KB)
+0255.962 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 28000 files added (on-disk size: 192413 KB)
+0256.004 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 28100 files added (on-disk size: 192413 KB)
+0256.045 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 28200 files added (on-disk size: 192413 KB)
+0256.091 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 28300 files added (on-disk size: 192413 KB)
+0256.135 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 28400 files added (on-disk size: 192413 KB)
+0256.178 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 28500 files added (on-disk size: 192413 KB)
+0256.221 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 28600 files added (on-disk size: 192413 KB)
+0256.260 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 28700 files added (on-disk size: 192413 KB)
+0256.267 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11 MB, 34616 files batched, 1001 (28713) added so far); re-opening (prior size: 192413 KB)
+0276.852 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 28800 files added (on-disk size: 197901.8 KB)
+0276.897 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 28900 files added (on-disk size: 197901.8 KB)
+0276.941 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 29000 files added (on-disk size: 197901.8 KB)
+0276.985 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 29100 files added (on-disk size: 197901.8 KB)
+0277.032 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 29200 files added (on-disk size: 197901.8 KB)
+0277.076 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 29300 files added (on-disk size: 197901.8 KB)
+0277.119 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 29400 files added (on-disk size: 197901.8 KB)
+0277.162 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 29500 files added (on-disk size: 197901.8 KB)
+0277.206 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 29600 files added (on-disk size: 197901.8 KB)
+0277.247 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 29700 files added (on-disk size: 197901.8 KB)
+0277.254 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.6 MB, 34616 files batched, 1001 (29714) added so far); re-opening (prior size: 197901.8 KB)
+0294.703 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 29800 files added (on-disk size: 198791.6 KB)
+0294.742 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 29900 files added (on-disk size: 198791.6 KB)
+0294.775 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 30000 files added (on-disk size: 198791.6 KB)
+0294.807 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 30100 files added (on-disk size: 198791.6 KB)
+0294.840 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 30200 files added (on-disk size: 198791.6 KB)
+0294.875 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 30300 files added (on-disk size: 198791.6 KB)
+0294.924 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 30400 files added (on-disk size: 198791.6 KB)
+0294.971 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 30500 files added (on-disk size: 198791.6 KB)
+0295.013 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 30600 files added (on-disk size: 198791.6 KB)
+0295.054 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 30700 files added (on-disk size: 198791.6 KB)
+0295.061 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.6 MB, 34616 files batched, 1001 (30715) added so far); re-opening (prior size: 198791.6 KB)
+0315.808 (0) The time we have been running (315.8) is approaching the resumption interval (345) - increasing resumption interval to 346
+0316.008 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 30800 files added (on-disk size: 201124.9 KB)
+0316.046 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 30900 files added (on-disk size: 201124.9 KB)
+0316.121 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 31000 files added (on-disk size: 201124.9 KB)
+0316.179 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 31100 files added (on-disk size: 201124.9 KB)
+0316.242 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 31200 files added (on-disk size: 201124.9 KB)
+0316.307 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 31300 files added (on-disk size: 201124.9 KB)
+0316.348 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 31400 files added (on-disk size: 201124.9 KB)
+0316.384 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 31500 files added (on-disk size: 201124.9 KB)
+0316.427 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 31600 files added (on-disk size: 201124.9 KB)
+0316.467 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 31700 files added (on-disk size: 201124.9 KB)
+0316.476 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.7 MB, 34616 files batched, 1001 (31716) added so far); re-opening (prior size: 201124.9 KB)
+0339.632 (0) The time we have been running (339.6) is approaching the resumption interval (346) - increasing resumption interval to 370
+0339.844 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 31800 files added (on-disk size: 211385.9 KB)
+0339.889 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 31900 files added (on-disk size: 211385.9 KB)
+0339.940 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 32000 files added (on-disk size: 211385.9 KB)
+0340.002 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 32100 files added (on-disk size: 211385.9 KB)
+0340.052 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 32200 files added (on-disk size: 211385.9 KB)
+0340.090 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 32300 files added (on-disk size: 211385.9 KB)
+0340.130 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 32400 files added (on-disk size: 211385.9 KB)
+0340.171 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 32500 files added (on-disk size: 211385.9 KB)
+0340.212 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 32600 files added (on-disk size: 211385.9 KB)
+0340.249 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 32700 files added (on-disk size: 211385.9 KB)
+0340.256 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15 MB, 34616 files batched, 1001 (32717) added so far); re-opening (prior size: 211385.9 KB)
+0362.732 (0) The time we have been running (362.7) is approaching the resumption interval (370) - increasing resumption interval to 393
+0362.950 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 32800 files added (on-disk size: 216140.4 KB)
+0362.992 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 32900 files added (on-disk size: 216140.4 KB)
+0363.026 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 33000 files added (on-disk size: 216140.4 KB)
+0363.063 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 33100 files added (on-disk size: 216140.4 KB)
+0363.097 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 33200 files added (on-disk size: 216140.4 KB)
+0363.131 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 33300 files added (on-disk size: 216140.4 KB)
+0363.166 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 33400 files added (on-disk size: 216140.4 KB)
+0363.199 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 33500 files added (on-disk size: 216140.4 KB)
+0363.235 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 33600 files added (on-disk size: 216140.4 KB)
+0363.274 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 33700 files added (on-disk size: 216140.4 KB)
+0363.283 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.2 MB, 34616 files batched, 1001 (33718) added so far); re-opening (prior size: 216140.4 KB)
+0386.573 (0) The time we have been running (386.6) is approaching the resumption interval (393) - increasing resumption interval to 417
+0386.793 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 33800 files added (on-disk size: 219632.5 KB)
+0386.830 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 33900 files added (on-disk size: 219632.5 KB)
+0386.868 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 34000 files added (on-disk size: 219632.5 KB)
+0386.907 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 34100 files added (on-disk size: 219632.5 KB)
+0386.947 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 34200 files added (on-disk size: 219632.5 KB)
+0386.982 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 34300 files added (on-disk size: 219632.5 KB)
+0387.017 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 34400 files added (on-disk size: 219632.5 KB)
+0387.053 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 34500 files added (on-disk size: 219632.5 KB)
+0387.082 (0) Zip: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.tmp: 34600 files added (on-disk size: 219632.5 KB)
+0410.444 (0) The time we have been running (410.4) is approaching the resumption interval (417) - increasing resumption interval to 441
+0410.674 (0) Creating zip file manifest (backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.list-temp.tmp)
+0411.433 (0) Successfully created zip file manifest (size: 3191376)
+0413.805 (0) Created plugins zip (0) - 225395.6 KB in 413.7 s (544.8 KB/s) (sha1: 648381d59699b2d7e95919821d0979ff7d8fb735, sha256: 7598a2c86405b20fb28778be14b034f0e9806e0f5d73f431f589d9591fade021)
+0413.835 (0) Cloud backup selection (1/1): azure with instance (1/1) (last)
+0413.837 (0) Beginning dispatch of backup to remote (azure) (instance identifier s-605f265ac552a7fc80fe7129a15e1196)
+0413.863 (0) Microsoft Azure: upload : attempt: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip
+0414.049 (0) Microsoft Azure: Starting fresh upload to azure://dhpproj/wpsc/backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip from byte: 0; block/chunk: 1
+0414.051 (0) Azure upload: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip (chunks: 111, of size: 2097152) -> azure://dhpproj/wpsc/ (0)
+0414.215 (0) The time we have been running (414.2) is approaching the resumption interval (441) - increasing resumption interval to 445
+0414.219 (0) Azure chunked upload: 0.9 % uploaded (1)
+0414.333 (0) Azure chunked upload: 1.8 % uploaded (2)
+0414.419 (0) Azure chunked upload: 2.7 % uploaded (3)
+0414.507 (0) Azure chunked upload: 3.6 % uploaded (4)
+0414.603 (0) Azure chunked upload: 4.5 % uploaded (5)
+0414.711 (0) Azure chunked upload: 5.5 % uploaded (6)
+0414.807 (0) Azure chunked upload: 6.4 % uploaded (7)
+0414.919 (0) Azure chunked upload: 7.3 % uploaded (8)
+0415.028 (0) The time we have been running (415) is approaching the resumption interval (445) - increasing resumption interval to 446
+0415.030 (0) Azure chunked upload: 8.2 % uploaded (9)
+0415.180 (0) Azure chunked upload: 9.1 % uploaded (10)
+0415.266 (0) Azure chunked upload: 10 % uploaded (11)
+0415.503 (0) Azure chunked upload: 10.9 % uploaded (12)
+0417.928 (0) The time we have been running (417.9) is approaching the resumption interval (446) - increasing resumption interval to 448
+0417.930 (0) Azure chunked upload: 11.8 % uploaded (13)
+0418.105 (0) The time we have been running (418.1) is approaching the resumption interval (448) - increasing resumption interval to 449
+0418.107 (0) Azure chunked upload: 12.7 % uploaded (14)
+0418.198 (0) Azure chunked upload: 13.6 % uploaded (15)
+0418.294 (0) Azure chunked upload: 14.5 % uploaded (16)
+0418.377 (0) Azure chunked upload: 15.4 % uploaded (17)
+0418.466 (0) Azure chunked upload: 16.4 % uploaded (18)
+0418.567 (0) Azure chunked upload: 17.3 % uploaded (19)
+0418.720 (0) Azure chunked upload: 18.2 % uploaded (20)
+0418.826 (0) Azure chunked upload: 19.1 % uploaded (21)
+0418.960 (0) Azure chunked upload: 20 % uploaded (22)
+0419.085 (0) The time we have been running (419.1) is approaching the resumption interval (449) - increasing resumption interval to 450
+0419.087 (0) Azure chunked upload: 20.9 % uploaded (23)
+0419.189 (0) Azure chunked upload: 21.8 % uploaded (24)
+0419.297 (0) Azure chunked upload: 22.7 % uploaded (25)
+0419.411 (0) Azure chunked upload: 23.6 % uploaded (26)
+0419.518 (0) Azure chunked upload: 24.5 % uploaded (27)
+0419.630 (0) Azure chunked upload: 25.4 % uploaded (28)
+0419.735 (0) Azure chunked upload: 26.4 % uploaded (29)
+0419.835 (0) Azure chunked upload: 27.3 % uploaded (30)
+0419.981 (0) Azure chunked upload: 28.2 % uploaded (31)
+0420.084 (0) The time we have been running (420.1) is approaching the resumption interval (450) - increasing resumption interval to 451
+0420.086 (0) Azure chunked upload: 29.1 % uploaded (32)
+0420.188 (0) Azure chunked upload: 30 % uploaded (33)
+0420.291 (0) Azure chunked upload: 30.9 % uploaded (34)
+0420.392 (0) Azure chunked upload: 31.8 % uploaded (35)
+0420.492 (0) Azure chunked upload: 32.7 % uploaded (36)
+0420.602 (0) Azure chunked upload: 33.6 % uploaded (37)
+0420.712 (0) Azure chunked upload: 34.5 % uploaded (38)
+0420.828 (0) Azure chunked upload: 35.4 % uploaded (39)
+0420.960 (0) Azure chunked upload: 36.3 % uploaded (40)
+0421.076 (0) The time we have been running (421.1) is approaching the resumption interval (451) - increasing resumption interval to 452
+0421.078 (0) Azure chunked upload: 37.3 % uploaded (41)
+0421.214 (0) Azure chunked upload: 38.2 % uploaded (42)
+0421.360 (0) Azure chunked upload: 39.1 % uploaded (43)
+0421.498 (0) Azure chunked upload: 40 % uploaded (44)
+0421.641 (0) Azure chunked upload: 40.9 % uploaded (45)
+0421.792 (0) Azure chunked upload: 41.8 % uploaded (46)
+0421.931 (0) Azure chunked upload: 42.7 % uploaded (47)
+0422.068 (0) The time we have been running (422.1) is approaching the resumption interval (452) - increasing resumption interval to 453
+0422.070 (0) Azure chunked upload: 43.6 % uploaded (48)
+0422.209 (0) Azure chunked upload: 44.5 % uploaded (49)
+0422.373 (0) Azure chunked upload: 45.4 % uploaded (50)
+0422.521 (0) Azure chunked upload: 46.3 % uploaded (51)
+0422.672 (0) Azure chunked upload: 47.2 % uploaded (52)
+0422.873 (0) Azure chunked upload: 48.2 % uploaded (53)
+0423.073 (0) The time we have been running (423.1) is approaching the resumption interval (453) - increasing resumption interval to 454
+0423.074 (0) Azure chunked upload: 49.1 % uploaded (54)
+0423.268 (0) Azure chunked upload: 50 % uploaded (55)
+0423.462 (0) Azure chunked upload: 50.9 % uploaded (56)
+0423.688 (0) Azure chunked upload: 51.8 % uploaded (57)
+0423.942 (0) Azure chunked upload: 52.7 % uploaded (58)
+0424.238 (0) The time we have been running (424.2) is approaching the resumption interval (454) - increasing resumption interval to 455
+0424.240 (0) Azure chunked upload: 53.6 % uploaded (59)
+0424.578 (0) Azure chunked upload: 54.5 % uploaded (60)
+0424.898 (0) Azure chunked upload: 55.4 % uploaded (61)
+0425.188 (0) The time we have been running (425.2) is approaching the resumption interval (455) - increasing resumption interval to 456
+0425.190 (0) Azure chunked upload: 56.3 % uploaded (62)
+0425.477 (0) Azure chunked upload: 57.2 % uploaded (63)
+0425.725 (0) Azure chunked upload: 58.2 % uploaded (64)
+0425.983 (0) Azure chunked upload: 59.1 % uploaded (65)
+0426.306 (0) The time we have been running (426.3) is approaching the resumption interval (456) - increasing resumption interval to 457
+0426.308 (0) Azure chunked upload: 60 % uploaded (66)
+0426.629 (0) Azure chunked upload: 60.9 % uploaded (67)
+0426.954 (0) Azure chunked upload: 61.8 % uploaded (68)
+0427.254 (0) The time we have been running (427.3) is approaching the resumption interval (457) - increasing resumption interval to 458
+0427.255 (0) Azure chunked upload: 62.7 % uploaded (69)
+0427.535 (0) Azure chunked upload: 63.6 % uploaded (70)
+0427.843 (0) Azure chunked upload: 64.5 % uploaded (71)
+0428.091 (0) The time we have been running (428.1) is approaching the resumption interval (458) - increasing resumption interval to 459
+0428.093 (0) Azure chunked upload: 65.4 % uploaded (72)
+0428.328 (0) Azure chunked upload: 66.3 % uploaded (73)
+0428.564 (0) Azure chunked upload: 67.2 % uploaded (74)
+0428.804 (0) Azure chunked upload: 68.1 % uploaded (75)
+0429.069 (0) The time we have been running (429.1) is approaching the resumption interval (459) - increasing resumption interval to 460
+0429.072 (0) Azure chunked upload: 69.1 % uploaded (76)
+0429.342 (0) Azure chunked upload: 70 % uploaded (77)
+0429.614 (0) Azure chunked upload: 70.9 % uploaded (78)
+0429.858 (0) Azure chunked upload: 71.8 % uploaded (79)
+0430.092 (0) The time we have been running (430.1) is approaching the resumption interval (460) - increasing resumption interval to 461
+0430.094 (0) Azure chunked upload: 72.7 % uploaded (80)
+0430.374 (0) Azure chunked upload: 73.6 % uploaded (81)
+0430.644 (0) Azure chunked upload: 74.5 % uploaded (82)
+0430.917 (0) Azure chunked upload: 75.4 % uploaded (83)
+0431.175 (0) The time we have been running (431.2) is approaching the resumption interval (461) - increasing resumption interval to 462
+0431.185 (0) Azure chunked upload: 76.3 % uploaded (84)
+0431.457 (0) Azure chunked upload: 77.2 % uploaded (85)
+0431.813 (0) Azure chunked upload: 78.1 % uploaded (86)
+0432.156 (0) The time we have been running (432.2) is approaching the resumption interval (462) - increasing resumption interval to 463
+0432.158 (0) Azure chunked upload: 79.1 % uploaded (87)
+0432.465 (0) Azure chunked upload: 80 % uploaded (88)
+0432.754 (0) Azure chunked upload: 80.9 % uploaded (89)
+0433.025 (0) The time we have been running (433) is approaching the resumption interval (463) - increasing resumption interval to 464
+0433.027 (0) Azure chunked upload: 81.8 % uploaded (90)
+0433.282 (0) Azure chunked upload: 82.7 % uploaded (91)
+0433.519 (0) Azure chunked upload: 83.6 % uploaded (92)
+0433.774 (0) Azure chunked upload: 84.5 % uploaded (93)
+0433.994 (0) Azure chunked upload: 85.4 % uploaded (94)
+0434.219 (0) The time we have been running (434.2) is approaching the resumption interval (464) - increasing resumption interval to 465
+0434.221 (0) Azure chunked upload: 86.3 % uploaded (95)
+0434.442 (0) Azure chunked upload: 87.2 % uploaded (96)
+0434.642 (0) Azure chunked upload: 88.1 % uploaded (97)
+0434.950 (0) Azure chunked upload: 89 % uploaded (98)
+0435.198 (0) The time we have been running (435.2) is approaching the resumption interval (465) - increasing resumption interval to 466
+0435.200 (0) Azure chunked upload: 90 % uploaded (99)
+0435.447 (0) Azure chunked upload: 90.9 % uploaded (100)
+0435.768 (0) Azure chunked upload: 91.8 % uploaded (101)
+0436.116 (0) The time we have been running (436.1) is approaching the resumption interval (466) - increasing resumption interval to 467
+0436.118 (0) Azure chunked upload: 92.7 % uploaded (102)
+0436.472 (0) Azure chunked upload: 93.6 % uploaded (103)
+0436.772 (0) Azure chunked upload: 94.5 % uploaded (104)
+0437.052 (0) The time we have been running (437) is approaching the resumption interval (467) - increasing resumption interval to 468
+0437.054 (0) Azure chunked upload: 95.4 % uploaded (105)
+0437.332 (0) Azure chunked upload: 96.3 % uploaded (106)
+0437.570 (0) Azure chunked upload: 97.2 % uploaded (107)
+0437.815 (0) Azure chunked upload: 98.1 % uploaded (108)
+0438.041 (0) The time we have been running (438) is approaching the resumption interval (468) - increasing resumption interval to 469
+0438.042 (0) Azure chunked upload: 99 % uploaded (109)
+0438.287 (0) Azure chunked upload: 99.9 % uploaded (110)
+0438.337 (0) Azure chunked upload: 100 % uploaded (111)
+0438.339 (0) Microsoft Azure: all chunks uploaded; now commmitting blob blocks
+0438.379 (0) Azure upload: success
+0438.379 (0) Recording as successfully uploaded: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip
+0438.431 (0) Deleting local file: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip: OK
+0438.437 (0) No backup of themes: excluded by user's options
+0438.438 (0) No backup of uploads: excluded by user's options
+0438.438 (0) No backup of wpcore: excluded by user's options
+0438.439 (0) No backup of others: excluded by user's options
+0438.440 (0) No backup of more: excluded by user's options
+0438.443 (0) Saving backup status to database (elements: 2)
+0438.447 (0) Beginning creation of database dump (WordPress DB)
+0438.448 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0438.494 (0) Table wp_options: Total expected rows (approximate): 1798
+0439.105 (0) Table wp_options: Rows added in this batch (next record: 79000): 1757 (uncompressed bytes in this segment=4786679) in 0.62 seconds
+0439.110 (0) The time we have been running (439.1) is approaching the resumption interval (469) - increasing resumption interval to 470
+0439.113 (0) Table wp_options: finishing file(s) (2, 571.4 KB)
+0439.125 (0) Table wp_users: Total expected rows (via COUNT): 289
+0439.125 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0439.134 (0) Table wp_users: Rows added in this batch (next record: 294): 289 (uncompressed bytes in this segment=48054) in 0.02 seconds
+0439.138 (0) Table wp_users: finishing file(s) (2, 18.8 KB)
+0439.152 (0) Table wp_usermeta: Total expected rows (approximate): 8277
+0439.239 (0) Table wp_usermeta: Rows added in this batch (next record: 9301): 8463 (uncompressed bytes in this segment=675049) in 0.10 seconds
+0439.244 (0) Table wp_usermeta: finishing file(s) (2, 112.5 KB)
+0439.256 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 467
+0439.257 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0439.270 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1201): 467 (uncompressed bytes in this segment=139363) in 0.02 seconds
+0439.275 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 10.6 KB)
+0439.285 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 1
+0439.286 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0439.288 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: 264): 1 (uncompressed bytes in this segment=703) in 0.01 seconds
+0439.292 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0439.300 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 8
+0439.300 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0439.302 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=862) in 0.01 seconds
+0439.306 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0439.314 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 1404
+0439.329 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 3581): 1395 (uncompressed bytes in this segment=127034) in 0.02 seconds
+0439.333 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 12.5 KB)
+0439.342 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0439.344 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+0439.348 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0439.356 (0) Table wp_comments: Total expected rows (via COUNT): 235
+0439.357 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0439.365 (0) Table wp_comments: Rows added in this batch (next record: 264): 235 (uncompressed bytes in this segment=54695) in 0.01 seconds
+0439.368 (0) Table wp_comments: finishing file(s) (2, 6.2 KB)
+0439.377 (0) Table wp_links: Total expected rows (via COUNT): 0
+0439.379 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0439.383 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0439.428 (0) Table wp_postmeta: Total expected rows (approximate): 16005
+0439.763 (0) Table wp_postmeta: Rows added in this batch (next record: 29779): 24263 (uncompressed bytes in this segment=10117153) in 0.38 seconds
+0439.769 (0) Table wp_postmeta: finishing file(s) (2, 553.2 KB)
+0439.811 (0) Table wp_posts: Total expected rows (approximate): 1972
+0440.075 (0) Table wp_posts: Rows added in this batch (next record: 7383): 1735 (uncompressed bytes in this segment=11213918) in 0.30 seconds
+0440.080 (0) The time we have been running (440.1) is approaching the resumption interval (470) - increasing resumption interval to 471
+0440.084 (0) Table wp_posts: finishing file(s) (2, 639.2 KB)
+0440.094 (0) Table wp_signups: Total expected rows (via COUNT): 0
+0440.096 (0) Table wp_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1048) in 0.01 seconds
+0440.101 (0) Table wp_signups: finishing file(s) (2, 0.5 KB)
+0440.109 (0) Table wp_term_relationships: Total expected rows (approximate): 85
+0440.112 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 85 (uncompressed bytes in this segment=2070) in 0.01 seconds
+0440.118 (0) Table wp_term_relationships: finishing file(s) (2, 0.7 KB)
+0440.134 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 92
+0440.135 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.138 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 162): 92 (uncompressed bytes in this segment=5019) in 0.01 seconds
+0440.143 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.3 KB)
+0440.153 (0) Table wp_termmeta: Total expected rows (via COUNT): 43
+0440.154 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.157 (0) Table wp_termmeta: Rows added in this batch (next record: 130): 43 (uncompressed bytes in this segment=2355) in 0.01 seconds
+0440.162 (0) Table wp_termmeta: finishing file(s) (2, 0.7 KB)
+0440.175 (0) Table wp_terms: Total expected rows (via COUNT): 92
+0440.176 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.179 (0) Table wp_terms: Rows added in this batch (next record: 162): 92 (uncompressed bytes in this segment=3965) in 0.01 seconds
+0440.183 (0) Table wp_terms: finishing file(s) (2, 1.5 KB)
+0440.194 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 9
+0440.197 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 9 (uncompressed bytes in this segment=693) in 0.01 seconds
+0440.200 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0440.210 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 17
+0440.211 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.213 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 6753): 17 (uncompressed bytes in this segment=2651) in 0.01 seconds
+0440.217 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0440.232 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0440.234 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.01 seconds
+0440.238 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0440.249 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0440.250 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.252 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=750) in 0.01 seconds
+0440.256 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0440.280 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 1371
+0440.356 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 1377): 1377 (uncompressed bytes in this segment=2106582) in 0.10 seconds
+0440.361 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 379.2 KB)
+0440.372 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0440.373 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.01 seconds
+0440.378 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0440.389 (0) Table wp_apsl_users_social_profile_details: Total expected rows (via COUNT): 0
+0440.392 (0) Table wp_apsl_users_social_profile_details: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1488) in 0.01 seconds
+0440.396 (0) Table wp_apsl_users_social_profile_details: finishing file(s) (2, 0.5 KB)
+0440.408 (0) Table wp_as3cf_items: Total expected rows (via COUNT): 0
+0440.410 (0) Table wp_as3cf_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1402) in 0.01 seconds
+0440.415 (0) Table wp_as3cf_items: finishing file(s) (2, 0.5 KB)
+0440.425 (0) Table wp_dhp_cert: Total expected rows (approximate): 87
+0440.427 (0) Table wp_dhp_cert: Rows added in this batch (next record: 1000): 89 (uncompressed bytes in this segment=3724) in 0.01 seconds
+0440.432 (0) Table wp_dhp_cert: finishing file(s) (2, 1 KB)
+0440.442 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0440.444 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.01 seconds
+0440.448 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0440.457 (0) Table wp_e_submissions: Total expected rows (via COUNT): 23
+0440.458 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.462 (0) Table wp_e_submissions: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=12478) in 0.01 seconds
+0440.465 (0) Table wp_e_submissions: finishing file(s) (2, 2.6 KB)
+0440.475 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 22
+0440.476 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.478 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=4777) in 0.01 seconds
+0440.482 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 1 KB)
+0440.492 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 46
+0440.493 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.496 (0) Table wp_e_submissions_values: Rows added in this batch (next record: 46): 46 (uncompressed bytes in this segment=2664) in 0.01 seconds
+0440.500 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.9 KB)
+0440.510 (0) Table wp_gf_addon_feed: Total expected rows (via COUNT): 1
+0440.511 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.513 (0) Table wp_gf_addon_feed: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1354) in 0.01 seconds
+0440.518 (0) Table wp_gf_addon_feed: finishing file(s) (2, 0.7 KB)
+0440.527 (0) Table wp_gf_draft_submissions: Total expected rows (approximate): 0
+0440.529 (0) Table wp_gf_draft_submissions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=696) in 0.01 seconds
+0440.533 (0) Table wp_gf_draft_submissions: finishing file(s) (2, 0.4 KB)
+0440.554 (0) Table wp_gf_entry: Total expected rows (via COUNT): 125
+0440.555 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.561 (0) Table wp_gf_entry: Rows added in this batch (next record: 125): 125 (uncompressed bytes in this segment=50751) in 0.02 seconds
+0440.565 (0) Table wp_gf_entry: finishing file(s) (2, 7.2 KB)
+0440.576 (0) Table wp_gf_entry_meta: Total expected rows (via COUNT): 735
+0440.577 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.586 (0) Table wp_gf_entry_meta: Rows added in this batch (next record: 735): 735 (uncompressed bytes in this segment=42666) in 0.02 seconds
+0440.591 (0) Table wp_gf_entry_meta: finishing file(s) (2, 7.6 KB)
+0440.601 (0) Table wp_gf_entry_notes: Total expected rows (via COUNT): 125
+0440.602 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.606 (0) Table wp_gf_entry_notes: Rows added in this batch (next record: 125): 125 (uncompressed bytes in this segment=23998) in 0.01 seconds
+0440.611 (0) Table wp_gf_entry_notes: finishing file(s) (2, 2.3 KB)
+0440.619 (0) Table wp_gf_form: Total expected rows (via COUNT): 2
+0440.620 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.622 (0) Table wp_gf_form: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=751) in 0.01 seconds
+0440.626 (0) Table wp_gf_form: finishing file(s) (2, 0.5 KB)
+0440.636 (0) Table wp_gf_form_meta: Total expected rows (via COUNT): 2
+0440.636 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.638 (0) Table wp_gf_form_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=7860) in 0.01 seconds
+0440.643 (0) Table wp_gf_form_meta: finishing file(s) (2, 2.1 KB)
+0440.652 (0) Table wp_gf_form_revisions: Total expected rows (via COUNT): 0
+0440.654 (0) Table wp_gf_form_revisions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.01 seconds
+0440.659 (0) Table wp_gf_form_revisions: finishing file(s) (2, 0.4 KB)
+0440.667 (0) Table wp_gf_form_view: Total expected rows (via COUNT): 78
+0440.668 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.671 (0) Table wp_gf_form_view: Rows added in this batch (next record: 78): 78 (uncompressed bytes in this segment=3834) in 0.01 seconds
+0440.674 (0) Table wp_gf_form_view: finishing file(s) (2, 1.3 KB)
+0440.686 (0) Table wp_imagify_files: Total expected rows (via COUNT): 0
+0440.688 (0) Table wp_imagify_files: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1333) in 0.01 seconds
+0440.693 (0) Table wp_imagify_files: finishing file(s) (2, 0.5 KB)
+0440.702 (0) Table wp_imagify_folders: Total expected rows (via COUNT): 0
+0440.704 (0) Table wp_imagify_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=609) in 0.01 seconds
+0440.708 (0) Table wp_imagify_folders: finishing file(s) (2, 0.4 KB)
+0440.719 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0440.721 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=577) in 0.01 seconds
+0440.724 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0440.743 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0440.745 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1109) in 0.01 seconds
+0440.749 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0440.759 (0) Table wp_login_redirects: Total expected rows (via COUNT): 3
+0440.760 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.763 (0) Table wp_login_redirects: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=928) in 0.01 seconds
+0440.768 (0) Table wp_login_redirects: finishing file(s) (2, 0.5 KB)
+0440.778 (0) Table wp_loginizer_logs: Total expected rows (approximate): 0
+0440.780 (0) Table wp_loginizer_logs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0440.784 (0) Table wp_loginizer_logs: finishing file(s) (2, 0.3 KB)
+0440.797 (0) Table wp_mo_campaign_log: Total expected rows (via COUNT): 0
+0440.798 (0) Table wp_mo_campaign_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=709) in 0.01 seconds
+0440.803 (0) Table wp_mo_campaign_log: finishing file(s) (2, 0.4 KB)
+0440.815 (0) Table wp_mo_campaign_logmeta: Total expected rows (via COUNT): 0
+0440.817 (0) Table wp_mo_campaign_logmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=588) in 0.01 seconds
+0440.822 (0) Table wp_mo_campaign_logmeta: finishing file(s) (2, 0.4 KB)
+0440.835 (0) Table wp_mo_conversions: Total expected rows (via COUNT): 6
+0440.836 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.838 (0) Table wp_mo_conversions: Rows added in this batch (next record: 17): 6 (uncompressed bytes in this segment=2469) in 0.01 seconds
+0440.843 (0) Table wp_mo_conversions: finishing file(s) (2, 0.9 KB)
+0440.858 (0) Table wp_mo_email_campaignmeta: Total expected rows (via COUNT): 0
+0440.862 (0) Table wp_mo_email_campaignmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=602) in 0.01 seconds
+0440.867 (0) Table wp_mo_email_campaignmeta: finishing file(s) (2, 0.4 KB)
+0440.878 (0) Table wp_mo_email_campaigns: Total expected rows (via COUNT): 0
+0440.880 (0) Table wp_mo_email_campaigns: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=596) in 0.01 seconds
+0440.884 (0) Table wp_mo_email_campaigns: finishing file(s) (2, 0.4 KB)
+0440.900 (0) Table wp_mo_optin_campaignmeta: Total expected rows (via COUNT): 0
+0440.902 (0) Table wp_mo_optin_campaignmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=602) in 0.01 seconds
+0440.920 (0) Table wp_mo_optin_campaignmeta: finishing file(s) (2, 0.4 KB)
+0440.937 (0) Table wp_mo_optin_campaigns: Total expected rows (via COUNT): 0
+0440.939 (0) Table wp_mo_optin_campaigns: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.01 seconds
+0440.943 (0) Table wp_mo_optin_campaigns: finishing file(s) (2, 0.4 KB)
+0440.955 (0) Table wp_pmpro_discount_codes: Total expected rows (via COUNT): 0
+0440.957 (0) Table wp_pmpro_discount_codes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=661) in 0.01 seconds
+0440.961 (0) Table wp_pmpro_discount_codes: finishing file(s) (2, 0.4 KB)
+0440.973 (0) Table wp_pmpro_discount_codes_levels: Total expected rows (approximate): 0
+0440.974 (0) Table wp_pmpro_discount_codes_levels: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1099) in 0.01 seconds
+0440.978 (0) Table wp_pmpro_discount_codes_levels: finishing file(s) (2, 0.5 KB)
+0440.992 (0) Table wp_pmpro_discount_codes_uses: Total expected rows (via COUNT): 0
+0440.993 (0) Table wp_pmpro_discount_codes_uses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.01 seconds
+0440.998 (0) Table wp_pmpro_discount_codes_uses: finishing file(s) (2, 0.4 KB)
+0441.008 (0) Table wp_pmpro_membership_levelmeta: Total expected rows (via COUNT): 1
+0441.009 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.011 (0) Table wp_pmpro_membership_levelmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=844) in 0.01 seconds
+0441.015 (0) The time we have been running (441) is approaching the resumption interval (471) - increasing resumption interval to 472
+0441.019 (0) Table wp_pmpro_membership_levelmeta: finishing file(s) (2, 0.4 KB)
+0441.028 (0) Table wp_pmpro_membership_levels: Total expected rows (via COUNT): 1
+0441.029 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.030 (0) Table wp_pmpro_membership_levels: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1412) in 0.01 seconds
+0441.035 (0) Table wp_pmpro_membership_levels: finishing file(s) (2, 0.6 KB)
+0441.048 (0) Table wp_pmpro_membership_ordermeta: Total expected rows (via COUNT): 0
+0441.050 (0) Table wp_pmpro_membership_ordermeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=737) in 0.01 seconds
+0441.056 (0) Table wp_pmpro_membership_ordermeta: finishing file(s) (2, 0.4 KB)
+0441.065 (0) Table wp_pmpro_membership_orders: Total expected rows (via COUNT): 0
+0441.067 (0) Table wp_pmpro_membership_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2554) in 0.01 seconds
+0441.071 (0) Table wp_pmpro_membership_orders: finishing file(s) (2, 0.7 KB)
+0441.079 (0) Table wp_pmpro_memberships_categories: Total expected rows (approximate): 0
+0441.081 (0) Table wp_pmpro_memberships_categories: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=735) in 0.01 seconds
+0441.085 (0) Table wp_pmpro_memberships_categories: finishing file(s) (2, 0.4 KB)
+0441.093 (0) Table wp_pmpro_memberships_pages: Total expected rows (approximate): 0
+0441.094 (0) Table wp_pmpro_memberships_pages: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=689) in 0.01 seconds
+0441.098 (0) Table wp_pmpro_memberships_pages: finishing file(s) (2, 0.4 KB)
+0441.112 (0) Table wp_pmpro_memberships_users: Total expected rows (via COUNT): 3
+0441.114 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.117 (0) Table wp_pmpro_memberships_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1831) in 0.02 seconds
+0441.121 (0) Table wp_pmpro_memberships_users: finishing file(s) (2, 0.7 KB)
+0441.135 (0) Table wp_presto_player_audio_presets: Total expected rows (via COUNT): 4
+0441.137 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.139 (0) Table wp_presto_player_audio_presets: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2884) in 0.01 seconds
+0441.144 (0) Table wp_presto_player_audio_presets: finishing file(s) (2, 0.8 KB)
+0441.156 (0) Table wp_presto_player_email_collection: Total expected rows (via COUNT): 0
+0441.160 (0) Table wp_presto_player_email_collection: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1292) in 0.01 seconds
+0441.164 (0) Table wp_presto_player_email_collection: finishing file(s) (2, 0.5 KB)
+0441.175 (0) Table wp_presto_player_presets: Total expected rows (via COUNT): 6
+0441.176 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.179 (0) Table wp_presto_player_presets: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=5391) in 0.01 seconds
+0441.184 (0) Table wp_presto_player_presets: finishing file(s) (2, 1.5 KB)
+0441.193 (0) Table wp_presto_player_videos: Total expected rows (via COUNT): 18
+0441.194 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.196 (0) Table wp_presto_player_videos: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=5294) in 0.01 seconds
+0441.200 (0) Table wp_presto_player_videos: finishing file(s) (2, 1.6 KB)
+0441.209 (0) Table wp_presto_player_visits: Total expected rows (via COUNT): 117
+0441.210 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.214 (0) Table wp_presto_player_visits: Rows added in this batch (next record: 202): 117 (uncompressed bytes in this segment=11684) in 0.01 seconds
+0441.218 (0) Table wp_presto_player_visits: finishing file(s) (2, 3.1 KB)
+0441.229 (0) Table wp_presto_player_webhooks: Total expected rows (via COUNT): 0
+0441.231 (0) Table wp_presto_player_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=920) in 0.01 seconds
+0441.235 (0) Table wp_presto_player_webhooks: finishing file(s) (2, 0.4 KB)
+0441.247 (0) Table wp_revslider_css: Total expected rows (via COUNT): 109
+0441.248 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.252 (0) Table wp_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91125) in 0.01 seconds
+0441.258 (0) Table wp_revslider_css: finishing file(s) (2, 4.9 KB)
+0441.271 (0) Table wp_revslider_css_bkp: Total expected rows (via COUNT): 47
+0441.272 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.275 (0) Table wp_revslider_css_bkp: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=15454) in 0.01 seconds
+0441.280 (0) Table wp_revslider_css_bkp: finishing file(s) (2, 1.8 KB)
+0441.289 (0) Table wp_revslider_layer_animations: Total expected rows (via COUNT): 0
+0441.292 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=571) in 0.01 seconds
+0441.296 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0441.305 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (via COUNT): 0
+0441.306 (0) Table wp_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=595) in 0.01 seconds
+0441.311 (0) Table wp_revslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+0441.332 (0) Table wp_revslider_navigations: Total expected rows (via COUNT): 2
+0441.333 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.340 (0) Table wp_revslider_navigations: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3214) in 0.03 seconds
+0441.356 (0) Table wp_revslider_navigations: finishing file(s) (2, 1.1 KB)
+0441.387 (0) Table wp_revslider_navigations_bkp: Total expected rows (via COUNT): 0
+0441.390 (0) Table wp_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=672) in 0.01 seconds
+0441.395 (0) Table wp_revslider_navigations_bkp: finishing file(s) (2, 0.4 KB)
+0441.405 (0) Table wp_revslider_sliders: Total expected rows (via COUNT): 5
+0441.406 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.409 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=19190) in 0.01 seconds
+0441.414 (0) Table wp_revslider_sliders: finishing file(s) (2, 3.8 KB)
+0441.425 (0) Table wp_revslider_sliders_bkp: Total expected rows (via COUNT): 0
+0441.427 (0) Table wp_revslider_sliders_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=656) in 0.01 seconds
+0441.433 (0) Table wp_revslider_sliders_bkp: finishing file(s) (2, 0.4 KB)
+0441.447 (0) Table wp_revslider_slides: Total expected rows (via COUNT): 5
+0441.451 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.457 (0) Table wp_revslider_slides: Rows added in this batch (next record: 8): 5 (uncompressed bytes in this segment=55773) in 0.02 seconds
+0441.470 (0) Table wp_revslider_slides: finishing file(s) (2, 4.3 KB)
+0441.485 (0) Table wp_revslider_slides_bkp: Total expected rows (via COUNT): 0
+0441.489 (0) Table wp_revslider_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.02 seconds
+0441.496 (0) Table wp_revslider_slides_bkp: finishing file(s) (2, 0.4 KB)
+0441.511 (0) Table wp_revslider_static_slides: Total expected rows (via COUNT): 5
+0441.515 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.522 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2232) in 0.02 seconds
+0441.537 (0) Table wp_revslider_static_slides: finishing file(s) (2, 0.9 KB)
+0441.563 (0) Table wp_revslider_static_slides_bkp: Total expected rows (via COUNT): 0
+0441.572 (0) Table wp_revslider_static_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=651) in 0.02 seconds
+0441.578 (0) Table wp_revslider_static_slides_bkp: finishing file(s) (2, 0.4 KB)
+0441.592 (0) Table wp_smush_dir_images: Total expected rows (via COUNT): 0
+0441.593 (0) Table wp_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=920) in 0.01 seconds
+0441.597 (0) Table wp_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0441.607 (0) Table wp_social_users: Total expected rows (via COUNT): 155
+0441.608 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.612 (0) Table wp_social_users: Rows added in this batch (next record: 155): 155 (uncompressed bytes in this segment=18560) in 0.01 seconds
+0441.617 (0) Table wp_social_users: finishing file(s) (2, 5 KB)
+0441.626 (0) Table wp_stm_lms_curriculum_bind: Total expected rows (via COUNT): 115
+0441.627 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.630 (0) Table wp_stm_lms_curriculum_bind: Rows added in this batch (next record: 121): 115 (uncompressed bytes in this segment=5748) in 0.01 seconds
+0441.634 (0) Table wp_stm_lms_curriculum_bind: finishing file(s) (2, 1.2 KB)
+0441.644 (0) Table wp_stm_lms_curriculum_log: Total expected rows (via COUNT): 163
+0441.644 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.649 (0) Table wp_stm_lms_curriculum_log: Rows added in this batch (next record: 163): 163 (uncompressed bytes in this segment=13997) in 0.01 seconds
+0441.653 (0) Table wp_stm_lms_curriculum_log: finishing file(s) (2, 2 KB)
+0441.662 (0) Table wp_stm_lms_curriculum_materials: Total expected rows (via COUNT): 15
+0441.663 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.665 (0) Table wp_stm_lms_curriculum_materials: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1263) in 0.01 seconds
+0441.669 (0) Table wp_stm_lms_curriculum_materials: finishing file(s) (2, 0.5 KB)
+0441.678 (0) Table wp_stm_lms_curriculum_sections: Total expected rows (via COUNT): 14
+0441.679 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.681 (0) Table wp_stm_lms_curriculum_sections: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=981) in 0.01 seconds
+0441.684 (0) Table wp_stm_lms_curriculum_sections: finishing file(s) (2, 0.5 KB)
+0441.693 (0) Table wp_stm_lms_order_items: Total expected rows (via COUNT): 137
+0441.694 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.697 (0) Table wp_stm_lms_order_items: Rows added in this batch (next record: 137): 137 (uncompressed bytes in this segment=7168) in 0.01 seconds
+0441.701 (0) Table wp_stm_lms_order_items: finishing file(s) (2, 1.4 KB)
+0441.710 (0) Table wp_stm_lms_user_answers: Total expected rows (via COUNT): 56
+0441.711 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.714 (0) Table wp_stm_lms_user_answers: Rows added in this batch (next record: 56): 56 (uncompressed bytes in this segment=3718) in 0.01 seconds
+0441.718 (0) Table wp_stm_lms_user_answers: finishing file(s) (2, 0.8 KB)
+0441.727 (0) Table wp_stm_lms_user_cart: Total expected rows (via COUNT): 164
+0441.728 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.733 (0) Table wp_stm_lms_user_cart: Rows added in this batch (next record: 164): 164 (uncompressed bytes in this segment=7220) in 0.01 seconds
+0441.737 (0) Table wp_stm_lms_user_cart: finishing file(s) (2, 1.3 KB)
+0441.747 (0) Table wp_stm_lms_user_chat: Total expected rows (via COUNT): 0
+0441.750 (0) Table wp_stm_lms_user_chat: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=660) in 0.01 seconds
+0441.754 (0) Table wp_stm_lms_user_chat: finishing file(s) (2, 0.4 KB)
+0441.765 (0) Table wp_stm_lms_user_conversation: Total expected rows (via COUNT): 0
+0441.766 (0) Table wp_stm_lms_user_conversation: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=741) in 0.01 seconds
+0441.770 (0) Table wp_stm_lms_user_conversation: finishing file(s) (2, 0.4 KB)
+0441.779 (0) Table wp_stm_lms_user_courses: Total expected rows (via COUNT): 263
+0441.780 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.787 (0) Table wp_stm_lms_user_courses: Rows added in this batch (next record: 294): 263 (uncompressed bytes in this segment=24350) in 0.01 seconds
+0441.791 (0) Table wp_stm_lms_user_courses: finishing file(s) (2, 3.5 KB)
+0441.800 (0) Table wp_stm_lms_user_lessons: Total expected rows (via COUNT): 112
+0441.801 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.803 (0) Table wp_stm_lms_user_lessons: Rows added in this batch (next record: 112): 112 (uncompressed bytes in this segment=6005) in 0.01 seconds
+0441.808 (0) Table wp_stm_lms_user_lessons: finishing file(s) (2, 1.9 KB)
+0441.817 (0) Table wp_stm_lms_user_quizzes: Total expected rows (via COUNT): 4
+0441.818 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.822 (0) Table wp_stm_lms_user_quizzes: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=933) in 0.01 seconds
+0441.827 (0) Table wp_stm_lms_user_quizzes: finishing file(s) (2, 0.5 KB)
+0441.839 (0) Table wp_stm_lms_user_quizzes_times: Total expected rows (via COUNT): 0
+0441.842 (0) Table wp_stm_lms_user_quizzes_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=665) in 0.01 seconds
+0441.847 (0) Table wp_stm_lms_user_quizzes_times: finishing file(s) (2, 0.4 KB)
+0441.861 (0) Table wp_stm_lms_user_searches: Total expected rows (via COUNT): 45
+0441.862 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.865 (0) Table wp_stm_lms_user_searches: Rows added in this batch (next record: 45): 45 (uncompressed bytes in this segment=2281) in 0.01 seconds
+0441.870 (0) Table wp_stm_lms_user_searches: finishing file(s) (2, 0.9 KB)
+0441.883 (0) Table wp_stm_lms_user_searches_stats: Total expected rows (via COUNT): 21
+0441.884 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.887 (0) Table wp_stm_lms_user_searches_stats: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=1237) in 0.01 seconds
+0441.891 (0) Table wp_stm_lms_user_searches_stats: finishing file(s) (2, 0.6 KB)
+0441.903 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 142
+0441.904 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.909 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 32410): 142 (uncompressed bytes in this segment=28556) in 0.01 seconds
+0441.914 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 4.4 KB)
+0441.924 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 112
+0441.925 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.932 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 113): 112 (uncompressed bytes in this segment=52213) in 0.01 seconds
+0441.938 (0) Table wp_wc_admin_notes: finishing file(s) (2, 10.8 KB)
+0441.950 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 76
+0441.951 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0441.955 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 77): 76 (uncompressed bytes in this segment=12643) in 0.01 seconds
+0441.960 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 4.1 KB)
+0441.970 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0441.972 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.01 seconds
+0441.976 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0441.995 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 0
+0441.997 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1058) in 0.02 seconds
+0442.002 (0) Table wp_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0442.014 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 48
+0442.016 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 1000): 48 (uncompressed bytes in this segment=3019) in 0.01 seconds
+0442.019 (0) The time we have been running (442) is approaching the resumption interval (472) - increasing resumption interval to 473
+0442.023 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.9 KB)
+0442.038 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 0
+0442.039 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1399) in 0.01 seconds
+0442.043 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0442.056 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 137
+0442.057 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0442.062 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 185): 137 (uncompressed bytes in this segment=13347) in 0.02 seconds
+0442.066 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 2.3 KB)
+0442.075 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 90
+0442.076 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0442.080 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 7006): 90 (uncompressed bytes in this segment=14159) in 0.01 seconds
+0442.084 (0) Table wp_wc_order_stats: finishing file(s) (2, 2.3 KB)
+0442.096 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0442.098 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=793) in 0.01 seconds
+0442.102 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0442.116 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0442.117 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=831) in 0.01 seconds
+0442.121 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0442.134 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0442.135 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0442.137 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=923) in 0.01 seconds
+0442.141 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0442.153 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0442.156 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.01 seconds
+0442.160 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0442.174 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0442.176 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.01 seconds
+0442.180 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0442.193 (0) Table wp_wfblockediplog: Total expected rows (approximate): 455
+0442.197 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 1000): 455 (uncompressed bytes in this segment=29796) in 0.01 seconds
+0442.201 (0) Table wp_wfblockediplog: finishing file(s) (2, 3.3 KB)
+0442.213 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0442.214 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.01 seconds
+0442.218 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0442.231 (0) Table wp_wfconfig: Total expected rows (approximate): 256
+0442.284 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 256 (uncompressed bytes in this segment=833963) in 0.06 seconds
+0442.292 (0) Table wp_wfconfig: finishing file(s) (2, 430.8 KB)
+0442.307 (0) Table wp_wfcrawlers: Total expected rows (approximate): 2
+0442.309 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=882) in 0.01 seconds
+0442.314 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.5 KB)
+0442.325 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0442.326 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=476) in 0.01 seconds
+0442.331 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0442.344 (0) Table wp_wffilemods: Total expected rows (approximate): 862
+0442.361 (0) Table wp_wffilemods: Rows added in this batch (next record: 1000): 862 (uncompressed bytes in this segment=213290) in 0.02 seconds
+0442.366 (0) Table wp_wffilemods: finishing file(s) (2, 59.7 KB)
+0442.380 (0) Table wp_wfhits: Total expected rows (via COUNT): 528
+0442.398 (0) Table wp_wfhits: Rows added in this batch (next record: 577): 528 (uncompressed bytes in this segment=218852) in 0.03 seconds
+0442.404 (0) Table wp_wfhits: finishing file(s) (2, 12.5 KB)
+0442.420 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0442.422 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=539) in 0.01 seconds
+0442.427 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0442.443 (0) Table wp_wfissues: Total expected rows (via COUNT): 0
+0442.445 (0) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=854) in 0.01 seconds
+0442.450 (0) Table wp_wfissues: finishing file(s) (2, 0.4 KB)
+0442.465 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 9348
+0442.592 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: 9348): 9348 (uncompressed bytes in this segment=775941) in 0.14 seconds
+0442.598 (0) Table wp_wfknownfilelist: finishing file(s) (2, 94.8 KB)
+0442.612 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0442.614 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=672) in 0.01 seconds
+0442.619 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.4 KB)
+0442.633 (0) Table wp_wflocs: Total expected rows (approximate): 18
+0442.635 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 18 (uncompressed bytes in this segment=2911) in 0.01 seconds
+0442.640 (0) Table wp_wflocs: finishing file(s) (2, 1.1 KB)
+0442.654 (0) Table wp_wflogins: Total expected rows (via COUNT): 57
+0442.656 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0442.660 (0) Table wp_wflogins: Rows added in this batch (next record: 57): 57 (uncompressed bytes in this segment=13260) in 0.01 seconds
+0442.664 (0) Table wp_wflogins: finishing file(s) (2, 1.7 KB)
+0442.676 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0442.679 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=705) in 0.01 seconds
+0442.683 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0442.695 (0) Table wp_wfls_settings: Total expected rows (approximate): 19
+0442.697 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 19 (uncompressed bytes in this segment=1625) in 0.01 seconds
+0442.701 (0) Table wp_wfls_settings: finishing file(s) (2, 0.8 KB)
+0442.715 (0) Table wp_wfnotifications: Total expected rows (approximate): 14
+0442.718 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 14 (uncompressed bytes in this segment=3747) in 0.01 seconds
+0442.722 (0) Table wp_wfnotifications: finishing file(s) (2, 1 KB)
+0442.733 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0442.735 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=896) in 0.01 seconds
+0442.739 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0442.752 (0) Table wp_wfreversecache: Total expected rows (approximate): 1
+0442.754 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=628) in 0.01 seconds
+0442.759 (0) Table wp_wfreversecache: finishing file(s) (2, 0.4 KB)
+0442.773 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0442.774 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=723) in 0.01 seconds
+0442.778 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0442.789 (0) Table wp_wfstatus: Total expected rows (via COUNT): 966
+0442.805 (0) Table wp_wfstatus: Rows added in this batch (next record: 1663): 966 (uncompressed bytes in this segment=85411) in 0.02 seconds
+0442.810 (0) Table wp_wfstatus: finishing file(s) (2, 14.5 KB)
+0442.823 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0442.825 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=590) in 0.01 seconds
+0442.829 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.4 KB)
+0442.843 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0442.844 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=873) in 0.01 seconds
+0442.849 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0442.862 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0442.864 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.01 seconds
+0442.868 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0442.877 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0442.878 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1410) in 0.01 seconds
+0442.882 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0442.896 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0442.898 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.01 seconds
+0442.903 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0442.914 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 185
+0442.915 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0442.918 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 185): 185 (uncompressed bytes in this segment=10293) in 0.01 seconds
+0442.923 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 1.9 KB)
+0442.936 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0442.939 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=744) in 0.01 seconds
+0442.943 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0442.954 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 41
+0442.954 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0442.959 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 2409): 41 (uncompressed bytes in this segment=50839) in 0.01 seconds
+0442.965 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 3.4 KB)
+0442.976 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0442.977 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0442.983 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=915) in 0.01 seconds
+0442.987 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0443.000 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0443.004 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0443.006 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=849) in 0.02 seconds
+0443.012 (0) The time we have been running (443) is approaching the resumption interval (473) - increasing resumption interval to 474
+0443.016 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0443.025 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0443.026 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0443.027 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=692) in 0.01 seconds
+0443.032 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0443.044 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0443.046 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.01 seconds
+0443.052 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0443.060 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0443.062 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1142) in 0.01 seconds
+0443.067 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0443.077 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0443.078 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=478) in 0.01 seconds
+0443.082 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0443.091 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 43
+0443.092 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0443.095 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: 43): 43 (uncompressed bytes in this segment=41017) in 0.01 seconds
+0443.102 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 2 KB)
+0443.114 (0) Table wp_wpmailsmtp_emails_log: Total expected rows (via COUNT): 1000
+0443.149 (0) Table wp_wpmailsmtp_emails_log: Rows added in this batch (next record: 1000): 1000 (uncompressed bytes in this segment=777572) in 0.04 seconds
+0443.157 (0) Table wp_wpmailsmtp_emails_log: finishing file(s) (2, 45.2 KB)
+0443.170 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 0
+0443.172 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=578) in 0.01 seconds
+0443.177 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0443.192 (0) Table wp_wws_analytics: Total expected rows (via COUNT): 0
+0443.195 (0) Table wp_wws_analytics: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=755) in 0.01 seconds
+0443.201 (0) Table wp_wws_analytics: finishing file(s) (2, 0.4 KB)
+0443.216 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 10
+0443.217 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0443.220 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=7696) in 0.01 seconds
+0443.225 (0) Table wp_yoast_indexable: finishing file(s) (2, 1.8 KB)
+0443.236 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 6
+0443.238 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=888) in 0.01 seconds
+0443.243 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0443.255 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 25
+0443.256 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0443.259 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=1218) in 0.01 seconds
+0443.262 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0443.273 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0443.275 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.01 seconds
+0443.279 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0443.291 (0) Table wp_yoast_prominent_words: Total expected rows (via COUNT): 0
+0443.292 (0) Table wp_yoast_prominent_words: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=699) in 0.01 seconds
+0443.297 (0) Table wp_yoast_prominent_words: finishing file(s) (2, 0.4 KB)
+0443.307 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 1
+0443.308 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0443.310 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1175) in 0.01 seconds
+0443.314 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0443.315 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/updraft/backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db.gz (line 1924, wp-content/plugins/updraftplus/backup.php)
+0443.317 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_options.table.tmpr79001.gz (1/155/fopen): adding to final database dump
+0443.366 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_options.table.gz (2/155/fopen): adding to final database dump
+0443.367 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_users.table.tmpr295.gz (3/155/fopen): adding to final database dump
+0443.370 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_users.table.gz (4/155/fopen): adding to final database dump
+0443.371 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_usermeta.table.tmpr9302.gz (5/155/fopen): adding to final database dump
+0443.382 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_usermeta.table.gz (6/155/fopen): adding to final database dump
+0443.383 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_actionscheduler_actions.table.tmpr1202.gz (7/155/fopen): adding to final database dump
+0443.385 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_actionscheduler_actions.table.gz (8/155/fopen): adding to final database dump
+0443.386 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_actionscheduler_claims.table.tmpr265.gz (9/155/fopen): adding to final database dump
+0443.388 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_actionscheduler_claims.table.gz (10/155/fopen): adding to final database dump
+0443.388 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_actionscheduler_groups.table.tmpr9.gz (11/155/fopen): adding to final database dump
+0443.389 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_actionscheduler_groups.table.gz (12/155/fopen): adding to final database dump
+0443.390 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_actionscheduler_logs.table.tmpr3582.gz (13/155/fopen): adding to final database dump
+0443.392 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_actionscheduler_logs.table.gz (14/155/fopen): adding to final database dump
+0443.393 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_commentmeta.table.tmpr0.gz (15/155/fopen): adding to final database dump
+0443.394 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_commentmeta.table.gz (16/155/fopen): adding to final database dump
+0443.395 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_comments.table.tmpr265.gz (17/155/fopen): adding to final database dump
+0443.397 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_comments.table.gz (18/155/fopen): adding to final database dump
+0443.398 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_links.table.tmpr0.gz (19/155/fopen): adding to final database dump
+0443.399 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_links.table.gz (20/155/fopen): adding to final database dump
+0443.400 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_postmeta.table.tmpr29780.gz (21/155/fopen): adding to final database dump
+0443.453 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_postmeta.table.gz (22/155/fopen): adding to final database dump
+0443.454 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_posts.table.tmpr7384.gz (23/155/fopen): adding to final database dump
+0443.508 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_posts.table.gz (24/155/fopen): adding to final database dump
+0443.509 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_signups.table.tmpr0.gz (25/155/fopen): adding to final database dump
+0443.511 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_signups.table.gz (26/155/fopen): adding to final database dump
+0443.512 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_term_relationships.table.tmpr100001.gz (27/155/fopen): adding to final database dump
+0443.513 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_term_relationships.table.gz (28/155/fopen): adding to final database dump
+0443.514 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_term_taxonomy.table.tmpr163.gz (29/155/fopen): adding to final database dump
+0443.515 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_term_taxonomy.table.gz (30/155/fopen): adding to final database dump
+0443.515 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_termmeta.table.tmpr131.gz (31/155/fopen): adding to final database dump
+0443.517 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_termmeta.table.gz (32/155/fopen): adding to final database dump
+0443.518 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_terms.table.tmpr163.gz (33/155/fopen): adding to final database dump
+0443.519 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_terms.table.gz (34/155/fopen): adding to final database dump
+0443.520 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_category_lookup.table.tmpr1001.gz (35/155/fopen): adding to final database dump
+0443.521 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_category_lookup.table.gz (36/155/fopen): adding to final database dump
+0443.522 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_product_meta_lookup.table.tmpr6754.gz (37/155/fopen): adding to final database dump
+0443.523 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_product_meta_lookup.table.gz (38/155/fopen): adding to final database dump
+0443.524 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_reserved_stock.table.tmpr1.gz (39/155/fopen): adding to final database dump
+0443.525 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_reserved_stock.table.gz (40/155/fopen): adding to final database dump
+0443.526 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (41/155/fopen): adding to final database dump
+0443.527 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_tax_rate_classes.table.gz (42/155/fopen): adding to final database dump
+0443.528 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_order_itemmeta.table.tmpr1378.gz (43/155/fopen): adding to final database dump
+0443.572 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_order_itemmeta.table.gz (44/155/fopen): adding to final database dump
+0443.573 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (45/155/fopen): adding to final database dump
+0443.574 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_payment_tokenmeta.table.gz (46/155/fopen): adding to final database dump
+0443.575 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_apsl_users_social_profile_details.table.tmpr0.gz (47/155/fopen): adding to final database dump
+0443.576 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_apsl_users_social_profile_details.table.gz (48/155/fopen): adding to final database dump
+0443.577 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_as3cf_items.table.tmpr0.gz (49/155/fopen): adding to final database dump
+0443.578 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_as3cf_items.table.gz (50/155/fopen): adding to final database dump
+0443.579 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_dhp_cert.table.tmpr1001.gz (51/155/fopen): adding to final database dump
+0443.580 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_dhp_cert.table.gz (52/155/fopen): adding to final database dump
+0443.580 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_e_events.table.tmpr0.gz (53/155/fopen): adding to final database dump
+0443.581 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_e_events.table.gz (54/155/fopen): adding to final database dump
+0443.582 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_e_submissions.table.tmpr24.gz (55/155/fopen): adding to final database dump
+0443.584 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_e_submissions.table.gz (56/155/fopen): adding to final database dump
+0443.584 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_e_submissions_actions_log.table.tmpr23.gz (57/155/fopen): adding to final database dump
+0443.586 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_e_submissions_actions_log.table.gz (58/155/fopen): adding to final database dump
+0443.586 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_e_submissions_values.table.tmpr47.gz (59/155/fopen): adding to final database dump
+0443.587 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_e_submissions_values.table.gz (60/155/fopen): adding to final database dump
+0443.588 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_addon_feed.table.tmpr2.gz (61/155/fopen): adding to final database dump
+0443.589 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_addon_feed.table.gz (62/155/fopen): adding to final database dump
+0443.590 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_draft_submissions.table.tmpr1.gz (63/155/fopen): adding to final database dump
+0443.591 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_draft_submissions.table.gz (64/155/fopen): adding to final database dump
+0443.592 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_entry.table.tmpr126.gz (65/155/fopen): adding to final database dump
+0443.594 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_entry.table.gz (66/155/fopen): adding to final database dump
+0443.595 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_entry_meta.table.tmpr736.gz (67/155/fopen): adding to final database dump
+0443.596 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_entry_meta.table.gz (68/155/fopen): adding to final database dump
+0443.597 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_entry_notes.table.tmpr126.gz (69/155/fopen): adding to final database dump
+0443.599 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_entry_notes.table.gz (70/155/fopen): adding to final database dump
+0443.599 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_form.table.tmpr3.gz (71/155/fopen): adding to final database dump
+0443.601 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_form.table.gz (72/155/fopen): adding to final database dump
+0443.601 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_form_meta.table.tmpr3.gz (73/155/fopen): adding to final database dump
+0443.603 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_form_meta.table.gz (74/155/fopen): adding to final database dump
+0443.603 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_form_revisions.table.tmpr0.gz (75/155/fopen): adding to final database dump
+0443.604 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_form_revisions.table.gz (76/155/fopen): adding to final database dump
+0443.605 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_form_view.table.tmpr79.gz (77/155/fopen): adding to final database dump
+0443.606 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_gf_form_view.table.gz (78/155/fopen): adding to final database dump
+0443.607 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_imagify_files.table.tmpr0.gz (79/155/fopen): adding to final database dump
+0443.608 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_imagify_files.table.gz (80/155/fopen): adding to final database dump
+0443.609 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_imagify_folders.table.tmpr0.gz (81/155/fopen): adding to final database dump
+0443.610 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_imagify_folders.table.gz (82/155/fopen): adding to final database dump
+0443.611 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_litespeed_url.table.tmpr0.gz (83/155/fopen): adding to final database dump
+0443.612 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_litespeed_url.table.gz (84/155/fopen): adding to final database dump
+0443.613 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_litespeed_url_file.table.tmpr0.gz (85/155/fopen): adding to final database dump
+0443.614 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_litespeed_url_file.table.gz (86/155/fopen): adding to final database dump
+0443.615 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_login_redirects.table.tmpr4.gz (87/155/fopen): adding to final database dump
+0443.616 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_login_redirects.table.gz (88/155/fopen): adding to final database dump
+0443.617 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_loginizer_logs.table.tmpr1.gz (89/155/fopen): adding to final database dump
+0443.618 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_loginizer_logs.table.gz (90/155/fopen): adding to final database dump
+0443.619 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_campaign_log.table.tmpr0.gz (91/155/fopen): adding to final database dump
+0443.620 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_campaign_log.table.gz (92/155/fopen): adding to final database dump
+0443.621 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_campaign_logmeta.table.tmpr0.gz (93/155/fopen): adding to final database dump
+0443.622 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_campaign_logmeta.table.gz (94/155/fopen): adding to final database dump
+0443.623 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_conversions.table.tmpr18.gz (95/155/fopen): adding to final database dump
+0443.624 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_conversions.table.gz (96/155/fopen): adding to final database dump
+0443.625 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_email_campaignmeta.table.tmpr0.gz (97/155/fopen): adding to final database dump
+0443.626 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_email_campaignmeta.table.gz (98/155/fopen): adding to final database dump
+0443.627 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_email_campaigns.table.tmpr0.gz (99/155/fopen): adding to final database dump
+0443.629 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_email_campaigns.table.gz (100/155/fopen): adding to final database dump
+0443.630 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_optin_campaignmeta.table.tmpr0.gz (101/155/fopen): adding to final database dump
+0443.631 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_optin_campaignmeta.table.gz (102/155/fopen): adding to final database dump
+0443.632 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_optin_campaigns.table.tmpr0.gz (103/155/fopen): adding to final database dump
+0443.633 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_mo_optin_campaigns.table.gz (104/155/fopen): adding to final database dump
+0443.634 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_discount_codes.table.tmpr0.gz (105/155/fopen): adding to final database dump
+0443.635 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_discount_codes.table.gz (106/155/fopen): adding to final database dump
+0443.636 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_discount_codes_levels.table.tmpr1.gz (107/155/fopen): adding to final database dump
+0443.637 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_discount_codes_levels.table.gz (108/155/fopen): adding to final database dump
+0443.638 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_discount_codes_uses.table.tmpr0.gz (109/155/fopen): adding to final database dump
+0443.639 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_discount_codes_uses.table.gz (110/155/fopen): adding to final database dump
+0443.640 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_membership_levelmeta.table.tmpr2.gz (111/155/fopen): adding to final database dump
+0443.641 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_membership_levelmeta.table.gz (112/155/fopen): adding to final database dump
+0443.642 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_membership_levels.table.tmpr2.gz (113/155/fopen): adding to final database dump
+0443.643 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_membership_levels.table.gz (114/155/fopen): adding to final database dump
+0443.644 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_membership_ordermeta.table.tmpr0.gz (115/155/fopen): adding to final database dump
+0443.645 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_membership_ordermeta.table.gz (116/155/fopen): adding to final database dump
+0443.646 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_membership_orders.table.tmpr0.gz (117/155/fopen): adding to final database dump
+0443.647 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_membership_orders.table.gz (118/155/fopen): adding to final database dump
+0443.648 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_memberships_categories.table.tmpr1.gz (119/155/fopen): adding to final database dump
+0443.649 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_memberships_categories.table.gz (120/155/fopen): adding to final database dump
+0443.650 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_memberships_pages.table.tmpr1.gz (121/155/fopen): adding to final database dump
+0443.651 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_memberships_pages.table.gz (122/155/fopen): adding to final database dump
+0443.652 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_memberships_users.table.tmpr4.gz (123/155/fopen): adding to final database dump
+0443.653 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_pmpro_memberships_users.table.gz (124/155/fopen): adding to final database dump
+0443.654 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_audio_presets.table.tmpr5.gz (125/155/fopen): adding to final database dump
+0443.655 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_audio_presets.table.gz (126/155/fopen): adding to final database dump
+0443.655 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_email_collection.table.tmpr0.gz (127/155/fopen): adding to final database dump
+0443.657 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_email_collection.table.gz (128/155/fopen): adding to final database dump
+0443.658 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_presets.table.tmpr7.gz (129/155/fopen): adding to final database dump
+0443.659 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_presets.table.gz (130/155/fopen): adding to final database dump
+0443.660 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_videos.table.tmpr19.gz (131/155/fopen): adding to final database dump
+0443.661 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_videos.table.gz (132/155/fopen): adding to final database dump
+0443.662 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_visits.table.tmpr203.gz (133/155/fopen): adding to final database dump
+0443.663 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_visits.table.gz (134/155/fopen): adding to final database dump
+0443.664 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_webhooks.table.tmpr0.gz (135/155/fopen): adding to final database dump
+0443.666 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_presto_player_webhooks.table.gz (136/155/fopen): adding to final database dump
+0443.667 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_css.table.tmpr110.gz (137/155/fopen): adding to final database dump
+0443.668 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_css.table.gz (138/155/fopen): adding to final database dump
+0443.669 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_css_bkp.table.tmpr48.gz (139/155/fopen): adding to final database dump
+0443.670 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_css_bkp.table.gz (140/155/fopen): adding to final database dump
+0443.671 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_layer_animations.table.tmpr0.gz (141/155/fopen): adding to final database dump
+0443.672 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_layer_animations.table.gz (142/155/fopen): adding to final database dump
+0443.673 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_layer_animations_bkp.table.tmpr0.gz (143/155/fopen): adding to final database dump
+0443.674 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_layer_animations_bkp.table.gz (144/155/fopen): adding to final database dump
+0443.675 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_navigations.table.tmpr3.gz (145/155/fopen): adding to final database dump
+0443.676 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_navigations.table.gz (146/155/fopen): adding to final database dump
+0443.677 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_navigations_bkp.table.tmpr0.gz (147/155/fopen): adding to final database dump
+0443.678 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_navigations_bkp.table.gz (148/155/fopen): adding to final database dump
+0443.679 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_sliders.table.tmpr6.gz (149/155/fopen): adding to final database dump
+0443.681 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_sliders.table.gz (150/155/fopen): adding to final database dump
+0443.681 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_sliders_bkp.table.tmpr0.gz (151/155/fopen): adding to final database dump
+0443.683 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_sliders_bkp.table.gz (152/155/fopen): adding to final database dump
+0443.683 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_slides.table.tmpr9.gz (153/155/fopen): adding to final database dump
+0443.685 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_slides.table.gz (154/155/fopen): adding to final database dump
+0443.686 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_slides_bkp.table.tmpr0.gz (155/155/fopen): adding to final database dump
+0443.687 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_slides_bkp.table.gz (156/155/fopen): adding to final database dump
+0443.688 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_static_slides.table.tmpr6.gz (157/155/fopen): adding to final database dump
+0443.689 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_static_slides.table.gz (158/155/fopen): adding to final database dump
+0443.690 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_static_slides_bkp.table.tmpr0.gz (159/155/fopen): adding to final database dump
+0443.691 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_revslider_static_slides_bkp.table.gz (160/155/fopen): adding to final database dump
+0443.692 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_smush_dir_images.table.tmpr0.gz (161/155/fopen): adding to final database dump
+0443.693 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_smush_dir_images.table.gz (162/155/fopen): adding to final database dump
+0443.694 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_social_users.table.tmpr156.gz (163/155/fopen): adding to final database dump
+0443.696 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_social_users.table.gz (164/155/fopen): adding to final database dump
+0443.697 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_curriculum_bind.table.tmpr122.gz (165/155/fopen): adding to final database dump
+0443.698 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_curriculum_bind.table.gz (166/155/fopen): adding to final database dump
+0443.699 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_curriculum_log.table.tmpr164.gz (167/155/fopen): adding to final database dump
+0443.700 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_curriculum_log.table.gz (168/155/fopen): adding to final database dump
+0443.701 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_curriculum_materials.table.tmpr16.gz (169/155/fopen): adding to final database dump
+0443.702 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_curriculum_materials.table.gz (170/155/fopen): adding to final database dump
+0443.702 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_curriculum_sections.table.tmpr15.gz (171/155/fopen): adding to final database dump
+0443.703 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_curriculum_sections.table.gz (172/155/fopen): adding to final database dump
+0443.704 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_order_items.table.tmpr138.gz (173/155/fopen): adding to final database dump
+0443.705 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_order_items.table.gz (174/155/fopen): adding to final database dump
+0443.706 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_answers.table.tmpr57.gz (175/155/fopen): adding to final database dump
+0443.707 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_answers.table.gz (176/155/fopen): adding to final database dump
+0443.708 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_cart.table.tmpr165.gz (177/155/fopen): adding to final database dump
+0443.709 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_cart.table.gz (178/155/fopen): adding to final database dump
+0443.710 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_chat.table.tmpr0.gz (179/155/fopen): adding to final database dump
+0443.711 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_chat.table.gz (180/155/fopen): adding to final database dump
+0443.712 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_conversation.table.tmpr0.gz (181/155/fopen): adding to final database dump
+0443.713 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_conversation.table.gz (182/155/fopen): adding to final database dump
+0443.714 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_courses.table.tmpr295.gz (183/155/fopen): adding to final database dump
+0443.715 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_courses.table.gz (184/155/fopen): adding to final database dump
+0443.716 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_lessons.table.tmpr113.gz (185/155/fopen): adding to final database dump
+0443.718 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_lessons.table.gz (186/155/fopen): adding to final database dump
+0443.719 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_quizzes.table.tmpr5.gz (187/155/fopen): adding to final database dump
+0443.720 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_quizzes.table.gz (188/155/fopen): adding to final database dump
+0443.721 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_quizzes_times.table.tmpr0.gz (189/155/fopen): adding to final database dump
+0443.722 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_quizzes_times.table.gz (190/155/fopen): adding to final database dump
+0443.723 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_searches.table.tmpr46.gz (191/155/fopen): adding to final database dump
+0443.724 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_searches.table.gz (192/155/fopen): adding to final database dump
+0443.725 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_searches_stats.table.tmpr22.gz (193/155/fopen): adding to final database dump
+0443.727 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_stm_lms_user_searches_stats.table.gz (194/155/fopen): adding to final database dump
+0443.727 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_admin_note_actions.table.tmpr32411.gz (195/155/fopen): adding to final database dump
+0443.729 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_admin_note_actions.table.gz (196/155/fopen): adding to final database dump
+0443.730 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_admin_notes.table.tmpr114.gz (197/155/fopen): adding to final database dump
+0443.732 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_admin_notes.table.gz (198/155/fopen): adding to final database dump
+0443.733 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_customer_lookup.table.tmpr78.gz (199/155/fopen): adding to final database dump
+0443.735 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_customer_lookup.table.gz (200/155/fopen): adding to final database dump
+0443.736 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_download_log.table.tmpr0.gz (201/155/fopen): adding to final database dump
+0443.737 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_download_log.table.gz (202/155/fopen): adding to final database dump
+0443.738 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_addresses.table.tmpr0.gz (203/155/fopen): adding to final database dump
+0443.739 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_addresses.table.gz (204/155/fopen): adding to final database dump
+0443.740 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_coupon_lookup.table.tmpr1001.gz (205/155/fopen): adding to final database dump
+0443.741 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_coupon_lookup.table.gz (206/155/fopen): adding to final database dump
+0443.742 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_operational_data.table.tmpr0.gz (207/155/fopen): adding to final database dump
+0443.743 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_operational_data.table.gz (208/155/fopen): adding to final database dump
+0443.744 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_product_lookup.table.tmpr186.gz (209/155/fopen): adding to final database dump
+0443.745 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_product_lookup.table.gz (210/155/fopen): adding to final database dump
+0443.746 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_stats.table.tmpr7007.gz (211/155/fopen): adding to final database dump
+0443.747 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_stats.table.gz (212/155/fopen): adding to final database dump
+0443.748 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (213/155/fopen): adding to final database dump
+0443.750 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_order_tax_lookup.table.gz (214/155/fopen): adding to final database dump
+0443.751 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (215/155/fopen): adding to final database dump
+0443.752 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_product_attributes_lookup.table.gz (216/155/fopen): adding to final database dump
+0443.752 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_product_download_directories.table.tmpr3.gz (217/155/fopen): adding to final database dump
+0443.753 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_product_download_directories.table.gz (218/155/fopen): adding to final database dump
+0443.754 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_rate_limits.table.tmpr0.gz (219/155/fopen): adding to final database dump
+0443.755 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_rate_limits.table.gz (220/155/fopen): adding to final database dump
+0443.756 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_webhooks.table.tmpr0.gz (221/155/fopen): adding to final database dump
+0443.757 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wc_webhooks.table.gz (222/155/fopen): adding to final database dump
+0443.758 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfblockediplog.table.tmpr1001.gz (223/155/fopen): adding to final database dump
+0443.759 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfblockediplog.table.gz (224/155/fopen): adding to final database dump
+0443.760 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfblocks7.table.tmpr0.gz (225/155/fopen): adding to final database dump
+0443.761 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfblocks7.table.gz (226/155/fopen): adding to final database dump
+0443.762 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfconfig.table.tmpr1001.gz (227/155/fopen): adding to final database dump
+0443.795 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfconfig.table.gz (228/155/fopen): adding to final database dump
+0443.796 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfcrawlers.table.tmpr1001.gz (229/155/fopen): adding to final database dump
+0443.797 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfcrawlers.table.gz (230/155/fopen): adding to final database dump
+0443.798 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wffilechanges.table.tmpr1.gz (231/155/fopen): adding to final database dump
+0443.799 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wffilechanges.table.gz (232/155/fopen): adding to final database dump
+0443.800 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wffilemods.table.tmpr1001.gz (233/155/fopen): adding to final database dump
+0443.807 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wffilemods.table.gz (234/155/fopen): adding to final database dump
+0443.808 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfhits.table.tmpr578.gz (235/155/fopen): adding to final database dump
+0443.810 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfhits.table.gz (236/155/fopen): adding to final database dump
+0443.811 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfhoover.table.tmpr0.gz (237/155/fopen): adding to final database dump
+0443.812 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfhoover.table.gz (238/155/fopen): adding to final database dump
+0443.813 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfissues.table.tmpr0.gz (239/155/fopen): adding to final database dump
+0443.814 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfissues.table.gz (240/155/fopen): adding to final database dump
+0443.815 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfknownfilelist.table.tmpr9349.gz (241/155/fopen): adding to final database dump
+0443.827 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfknownfilelist.table.gz (242/155/fopen): adding to final database dump
+0443.828 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wflivetraffichuman.table.tmpr1.gz (243/155/fopen): adding to final database dump
+0443.829 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wflivetraffichuman.table.gz (244/155/fopen): adding to final database dump
+0443.830 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wflocs.table.tmpr1001.gz (245/155/fopen): adding to final database dump
+0443.831 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wflocs.table.gz (246/155/fopen): adding to final database dump
+0443.832 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wflogins.table.tmpr58.gz (247/155/fopen): adding to final database dump
+0443.833 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wflogins.table.gz (248/155/fopen): adding to final database dump
+0443.834 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (249/155/fopen): adding to final database dump
+0443.835 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfls_2fa_secrets.table.gz (250/155/fopen): adding to final database dump
+0443.836 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfls_settings.table.tmpr1001.gz (251/155/fopen): adding to final database dump
+0443.837 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfls_settings.table.gz (252/155/fopen): adding to final database dump
+0443.838 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfnotifications.table.tmpr1001.gz (253/155/fopen): adding to final database dump
+0443.839 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfnotifications.table.gz (254/155/fopen): adding to final database dump
+0443.840 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfpendingissues.table.tmpr0.gz (255/155/fopen): adding to final database dump
+0443.841 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfpendingissues.table.gz (256/155/fopen): adding to final database dump
+0443.842 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfreversecache.table.tmpr1001.gz (257/155/fopen): adding to final database dump
+0443.843 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfreversecache.table.gz (258/155/fopen): adding to final database dump
+0443.844 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfsnipcache.table.tmpr0.gz (259/155/fopen): adding to final database dump
+0443.845 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfsnipcache.table.gz (260/155/fopen): adding to final database dump
+0443.846 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfstatus.table.tmpr1664.gz (261/155/fopen): adding to final database dump
+0443.848 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wfstatus.table.gz (262/155/fopen): adding to final database dump
+0443.849 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wftrafficrates.table.tmpr1.gz (263/155/fopen): adding to final database dump
+0443.850 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wftrafficrates.table.gz (264/155/fopen): adding to final database dump
+0443.851 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (265/155/fopen): adding to final database dump
+0443.852 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_api_keys.table.gz (266/155/fopen): adding to final database dump
+0443.853 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (267/155/fopen): adding to final database dump
+0443.854 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_attribute_taxonomies.table.gz (268/155/fopen): adding to final database dump
+0443.855 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (269/155/fopen): adding to final database dump
+0443.856 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (270/155/fopen): adding to final database dump
+0443.857 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_log.table.tmpr0.gz (271/155/fopen): adding to final database dump
+0443.859 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_log.table.gz (272/155/fopen): adding to final database dump
+0443.859 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_order_items.table.tmpr186.gz (273/155/fopen): adding to final database dump
+0443.861 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_order_items.table.gz (274/155/fopen): adding to final database dump
+0443.862 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (275/155/fopen): adding to final database dump
+0443.863 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_payment_tokens.table.gz (276/155/fopen): adding to final database dump
+0443.864 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_sessions.table.tmpr2410.gz (277/155/fopen): adding to final database dump
+0443.865 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_sessions.table.gz (278/155/fopen): adding to final database dump
+0443.866 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (279/155/fopen): adding to final database dump
+0443.867 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_shipping_zone_locations.table.gz (280/155/fopen): adding to final database dump
+0443.868 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (281/155/fopen): adding to final database dump
+0443.869 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_shipping_zone_methods.table.gz (282/155/fopen): adding to final database dump
+0443.870 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (283/155/fopen): adding to final database dump
+0443.871 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_shipping_zones.table.gz (284/155/fopen): adding to final database dump
+0443.872 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (285/155/fopen): adding to final database dump
+0443.873 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_tax_rate_locations.table.gz (286/155/fopen): adding to final database dump
+0443.875 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (287/155/fopen): adding to final database dump
+0443.876 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_woocommerce_tax_rates.table.gz (288/155/fopen): adding to final database dump
+0443.877 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wpfm_backup.table.tmpr0.gz (289/155/fopen): adding to final database dump
+0443.878 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wpfm_backup.table.gz (290/155/fopen): adding to final database dump
+0443.879 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wpmailsmtp_debug_events.table.tmpr44.gz (291/155/fopen): adding to final database dump
+0443.880 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wpmailsmtp_debug_events.table.gz (292/155/fopen): adding to final database dump
+0443.881 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wpmailsmtp_emails_log.table.tmpr1001.gz (293/155/fopen): adding to final database dump
+0443.886 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wpmailsmtp_emails_log.table.gz (294/155/fopen): adding to final database dump
+0443.887 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr0.gz (295/155/fopen): adding to final database dump
+0443.888 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wpmailsmtp_tasks_meta.table.gz (296/155/fopen): adding to final database dump
+0443.889 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wws_analytics.table.tmpr0.gz (297/155/fopen): adding to final database dump
+0443.890 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_wws_analytics.table.gz (298/155/fopen): adding to final database dump
+0443.890 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_indexable.table.tmpr11.gz (299/155/fopen): adding to final database dump
+0443.893 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_indexable.table.gz (300/155/fopen): adding to final database dump
+0443.894 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (301/155/fopen): adding to final database dump
+0443.895 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_indexable_hierarchy.table.gz (302/155/fopen): adding to final database dump
+0443.896 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_migrations.table.tmpr26.gz (303/155/fopen): adding to final database dump
+0443.897 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_migrations.table.gz (304/155/fopen): adding to final database dump
+0443.898 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_primary_term.table.tmpr0.gz (305/155/fopen): adding to final database dump
+0443.899 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_primary_term.table.gz (306/155/fopen): adding to final database dump
+0443.899 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_prominent_words.table.tmpr0.gz (307/155/fopen): adding to final database dump
+0443.901 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_prominent_words.table.gz (308/155/fopen): adding to final database dump
+0443.902 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_seo_links.table.tmpr2.gz (309/155/fopen): adding to final database dump
+0443.903 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db-table-wp_yoast_seo_links.table.gz (310/155/fopen): adding to final database dump
+0443.922 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db.gz: finished writing out complete database file (3112.9 KB)
+0444.007 (0) Total database tables backed up: 155 (backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db.gz, size: 3187750, sha1: 0412fdf8149ea8b1990bb44206f93ff757f2e93e, sha256: 3de0d68e2e00e954e0bce146fbc7972aae230d730fbe2cb7d965ee1b0ab52a2f)
+0444.015 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip: plugins: This file has already been successfully uploaded
+0444.016 (0) backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db.gz: db: This file has not yet been successfully uploaded: will queue
+0444.017 (0) Saving backup history. Total backup size: 223.2 MB
+0444.020 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0444.023 (0) Cloud backup selection (1/1): azure with instance (1/1) (last)
+0444.024 (0) Beginning dispatch of backup to remote (azure) (instance identifier s-605f265ac552a7fc80fe7129a15e1196)
+0444.025 (0) Microsoft Azure: upload : attempt: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db.gz
+0444.060 (0) Microsoft Azure: Starting fresh upload to azure://dhpproj/wpsc/backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db.gz from byte: 0; block/chunk: 1
+0444.061 (0) Azure upload: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db.gz (chunks: 2, of size: 2097152) -> azure://dhpproj/wpsc/ (0)
+0444.356 (0) The time we have been running (444.4) is approaching the resumption interval (474) - increasing resumption interval to 475
+0444.358 (0) Azure chunked upload: 65.8 % uploaded (1)
+0444.479 (0) Azure chunked upload: 100 % uploaded (2)
+0444.481 (0) Microsoft Azure: all chunks uploaded; now commmitting blob blocks
+0444.631 (0) Azure upload: success
+0444.632 (0) Recording as successfully uploaded: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db.gz
+0444.635 (0) Deleting local file: backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-db.gz: OK
+0444.637 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0444.640 (0) Number of backup sets in history: 14; groups (db): 1
+0444.641 (0) Examining (for databases) backup set with group_id=0, nonce=79dec8af8566, datestamp=1694838248 (Sep 16 2023 04:24:08)
+0444.642 (0) This backup set is the backup set just made, so will not be deleted.
+0444.642 (0) Examining (for databases) backup set with group_id=0, nonce=45b7bd0dbe57, datestamp=1694794977 (Sep 15 2023 16:22:57)
+0444.642 (0) This backup set (1694794977) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.642 (0) Examining (for databases) backup set with group_id=0, nonce=32ece69b4abf, datestamp=1694751820 (Sep 15 2023 04:23:40)
+0444.642 (0) This backup set (1694751820) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.642 (0) Examining (for databases) backup set with group_id=0, nonce=915cc1b4ed3f, datestamp=1694708729 (Sep 14 2023 16:25:29)
+0444.642 (0) This backup set (1694708729) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.642 (0) Examining (for databases) backup set with group_id=0, nonce=3d1485320c3d, datestamp=1694666284 (Sep 14 2023 04:38:04)
+0444.642 (0) This backup set (1694666284) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.642 (0) Examining (for databases) backup set with group_id=0, nonce=acd36d761f1c, datestamp=1694622612 (Sep 13 2023 16:30:12)
+0444.642 (0) This backup set (1694622612) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.642 (0) Examining (for databases) backup set with group_id=0, nonce=3de353c64b54, datestamp=1694581248 (Sep 13 2023 05:00:48)
+0444.642 (0) This backup set (1694581248) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.642 (0) Examining (for databases) backup set with group_id=0, nonce=680013c25e7a, datestamp=1694535838 (Sep 12 2023 16:23:58)
+0444.642 (0) This backup set (1694535838) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.642 (0) Examining (for databases) backup set with group_id=0, nonce=dc409bbb84ce, datestamp=1694500210 (Sep 12 2023 06:30:10)
+0444.642 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0444.643 (0) Examining (for databases) backup set with group_id=0, nonce=d5c26a013d06, datestamp=1693327099 (Aug 29 2023 16:38:19)
+0444.644 (0) Examining (for databases) backup set with group_id=0, nonce=6602952c78be, datestamp=1691560896 (Aug 09 2023 06:01:36)
+0444.644 (0) Examining (for databases) backup set with group_id=0, nonce=11927d785c3d, datestamp=1684600667 (May 20 2023 16:37:47)
+0444.644 (0) Examining (for databases) backup set with group_id=0, nonce=cac622864c1b, datestamp=1684268269 (May 16 2023 20:17:49)
+0444.644 (0) Examining (for databases) backup set with group_id=0, nonce=74b8be127820, datestamp=1681511778 (Apr 14 2023 22:36:18)
+0444.644 (0) Number of backup sets in history: 14; groups (files): 1
+0444.645 (0) Examining (for files) backup set with nonce=79dec8af8566, datestamp=1694838248 (Sep 16 2023 04:24:08)
+0444.645 (0) This backup set is the backup set just made, so will not be deleted.
+0444.646 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0444.646 (0) Examining (for files) backup set with nonce=45b7bd0dbe57, datestamp=1694794977 (Sep 15 2023 16:22:57)
+0444.647 (0) This backup set (1694794977) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.647 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0444.647 (0) Examining (for files) backup set with nonce=32ece69b4abf, datestamp=1694751820 (Sep 15 2023 04:23:40)
+0444.647 (0) This backup set (1694751820) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.647 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0444.647 (0) Examining (for files) backup set with nonce=915cc1b4ed3f, datestamp=1694708729 (Sep 14 2023 16:25:29)
+0444.647 (0) This backup set (1694708729) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.647 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0444.647 (0) Examining (for files) backup set with nonce=3d1485320c3d, datestamp=1694666284 (Sep 14 2023 04:38:04)
+0444.647 (0) This backup set (1694666284) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.647 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0444.647 (0) Examining (for files) backup set with nonce=acd36d761f1c, datestamp=1694622612 (Sep 13 2023 16:30:12)
+0444.647 (0) This backup set (1694622612) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.647 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0444.648 (0) Examining (for files) backup set with nonce=3de353c64b54, datestamp=1694581248 (Sep 13 2023 05:00:48)
+0444.648 (0) This backup set (1694581248) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.648 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0444.648 (0) Examining (for files) backup set with nonce=680013c25e7a, datestamp=1694535838 (Sep 12 2023 16:23:58)
+0444.648 (0) This backup set (1694535838) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.648 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0444.648 (0) Examining (for files) backup set with nonce=dc409bbb84ce, datestamp=1694500210 (Sep 12 2023 06:30:10)
+0444.648 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0444.648 (0) Examining (for files) backup set with nonce=d5c26a013d06, datestamp=1693327099 (Aug 29 2023 16:38:19)
+0444.648 (0) This backup set (1693327099) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.648 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0444.649 (0) Examining (for files) backup set with nonce=6602952c78be, datestamp=1691560896 (Aug 09 2023 06:01:36)
+0444.649 (0) This backup set (1691560896) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.649 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0444.649 (0) Examining (for files) backup set with nonce=11927d785c3d, datestamp=1684600667 (May 20 2023 16:37:47)
+0444.649 (0) This backup set (1684600667) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.649 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0444.650 (0) Examining (for files) backup set with nonce=cac622864c1b, datestamp=1684268269 (May 16 2023 20:17:49)
+0444.650 (0) This backup set (1684268269) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0444.650 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0444.650 (0) Examining (for files) backup set with nonce=74b8be127820, datestamp=1681511778 (Apr 14 2023 22:36:18)
+0444.650 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0444.650 (0) Retain: saving new backup history (sets now: 14) and finishing retain operation
+0444.653 (0) Resume backup (79dec8af8566, 0): finish run
+0444.655 (0) Decremented the semaphore (fd) by 1
+0444.656 (0) Semaphore (fd) unlocked
+0444.657 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0444.660 (0) Deleting zip manifest (backup_2023-09-16-0424_CatalystClassroom_79dec8af8566-plugins.zip.list.tmp)
+0444.662 (0) No email will/can be sent - the user has not configured an email address.
+0444.663 (0) The backup apparently succeeded and is now complete

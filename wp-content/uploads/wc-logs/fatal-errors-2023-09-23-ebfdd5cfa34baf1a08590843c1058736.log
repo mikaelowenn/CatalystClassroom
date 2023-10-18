@@ -1,0 +1,127 @@
+2023-09-23T08:49:35+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/litespeed-cache/thirdparty/bbpress.cls.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/litespeed-cache/autoload.php:35
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): litespeed_autoload()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/litespeed-cache/src/core.cls.php(379): do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): LiteSpeed\Core->load_thirdparty()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-settings.php(654): do_action()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-config.php(97): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/wp-load.php(50): require_once('/home/catalyst/...')
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/wp-admin/admin.php(34): require_once('/home/catalyst/...')
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/wp-admin/post.php(12): require_once('/home/catalyst/...')
+#12 {main}
+
+Next TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "LiteSpeed\Thirdparty\BBPress" not found in /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/litespeed-cache/src/core.cls.php(379): do_action()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): LiteSpeed\Core->load_thirdparty()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-settings.php(654): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/wp-admin/admin.php(34): require_once('/home/catalyst/...')
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/wp-admin/post.php(12): require_once('/home/catalyst/...')
+#11 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-23T08:51:35+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/domain/entities/route_match/specifications/admin/EspressoAttendeePostTypeEditor.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/Psr4Autoloader.php:187
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/Psr4Autoloader.php(168): EventEspresso\core\Psr4Autoloader->requireFile()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/Psr4Autoloader.php(137): EventEspresso\core\Psr4Autoloader->loadMappedFile()
+#2 [internal function]: EventEspresso\core\Psr4Autoloader->loadClass()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/services/collections/CollectionLoader.php(308): class_exists()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/services/collections/CollectionLoader.php(286): EventEspresso\core\services\collections\CollectionLoader->loadClassFromFQCN()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/services/collections/CollectionLoader.php(96): EventEspresso\core\services\collections\CollectionLoader->loadFromFQCNs()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/services/route_match/RouteMatchSpecificationManager.php(100): EventEspresso\core\services\collections\CollectionLoader->__construct()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/services/route_match/RouteMatchSpecificationManager.php(64): EventEspresso\core\services\route_match\RouteMatchSpecificationManager->populateSpecificationCollection()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): EventEspresso\core\services\route_match\RouteMatchSpecificationManager->initialize()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/EE_System.core.php(989): do_action()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): EE_System->loadRouteMatchSpecifications()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/EE_Bootstrap.core.php(47): do_action()
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): EE_Bootstrap::load_core_configuration()
+#17 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#18 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#19 /home/catalyst/domains/catalystclassroom.com/public_html/wp-settings.php(495): do_action()
+#20 /home/catalyst/domains/catalystclassroom.com/public_html/wp-config.php(97): require_once('/home/catalyst/...')
+#21 /home/catalyst/domains/catalystclassroom.com/public_html/wp-load.php(50): require_once('/home/catalyst/...')
+#22 /home/catalyst/domains/catalystclassroom.com/public_html/wp-blog-header.php(13): require_once('/home/catalyst/...')
+#23 /home/catalyst/domains/catalystclassroom.com/public_html/index.php(17): require('/home/catalyst/...')
+#24 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/Psr4Autoloader.php on line 187
+
+2023-09-23T08:51:48+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/domain/entities/route_match/specifications/admin/WordPressPostsListTable.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/Psr4Autoloader.php:187
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/Psr4Autoloader.php(168): EventEspresso\core\Psr4Autoloader->requireFile()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/Psr4Autoloader.php(137): EventEspresso\core\Psr4Autoloader->loadMappedFile()
+#2 [internal function]: EventEspresso\core\Psr4Autoloader->loadClass()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/services/collections/CollectionLoader.php(308): class_exists()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/services/collections/CollectionLoader.php(286): EventEspresso\core\services\collections\CollectionLoader->loadClassFromFQCN()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/services/collections/CollectionLoader.php(96): EventEspresso\core\services\collections\CollectionLoader->loadFromFQCNs()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/services/route_match/RouteMatchSpecificationManager.php(100): EventEspresso\core\services\collections\CollectionLoader->__construct()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/services/route_match/RouteMatchSpecificationManager.php(64): EventEspresso\core\services\route_match\RouteMatchSpecificationManager->populateSpecificationCollection()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): EventEspresso\core\services\route_match\RouteMatchSpecificationManager->initialize()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/EE_System.core.php(989): do_action()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): EE_System->loadRouteMatchSpecifications()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/EE_Bootstrap.core.php(47): do_action()
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): EE_Bootstrap::load_core_configuration()
+#17 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#18 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#19 /home/catalyst/domains/catalystclassroom.com/public_html/wp-settings.php(495): do_action()
+#20 /home/catalyst/domains/catalystclassroom.com/public_html/wp-config.php(97): require_once('/home/catalyst/...')
+#21 /home/catalyst/domains/catalystclassroom.com/public_html/wp-load.php(50): require_once('/home/catalyst/...')
+#22 /home/catalyst/domains/catalystclassroom.com/public_html/wp-blog-header.php(13): require_once('/home/catalyst/...')
+#23 /home/catalyst/domains/catalystclassroom.com/public_html/index.php(17): require('/home/catalyst/...')
+#24 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/event-espresso-decaf/core/Psr4Autoloader.php on line 187
+
+2023-09-23T08:52:18+00:00 CRITICAL Uncaught WPStaging\Vendor\lucatume\DI52\NotFoundException: Error while making WPSTG_PRO: nothing is bound to the 'WPSTG_PRO' id and it's not an existing or instantiable class. in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/vendor_wpstg/lucatume/di52/src/Container.php:209
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/vendor_wpstg/lucatume/di52/src/Container.php(190): WPStaging\Vendor\lucatume\DI52\Container->castThrown()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/Framework/DI/Container.php(53): WPStaging\Vendor\lucatume\DI52\Container->get()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/Core/WPStaging.php(376): WPStaging\Framework\DI\Container->get()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/Core/WPStaging.php(431): WPStaging\Core\WPStaging::make()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/Core/Cron/Cron.php(57): WPStaging\Core\WPStaging::isPro()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): WPStaging\Core\Cron\Cron->addIntervals()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/cron.php(1090): apply_filters()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/cron.php(994): wp_get_schedules()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): _wp_cron()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/wp-settings.php(654): do_action()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/wp-config.php(97): require_once('/home/catalyst/...')
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/wp-load.php(50): require_once('/home/catalyst/...')
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/wp-admin/admin.php(34): require_once('/home/catalyst/...')
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/wp-admin/edit.php(10): require_once('/home/catalyst/...')
+#17 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/vendor_wpstg/lucatume/di52/src/Container.php on line 209
+
+2023-09-23T23:27:59+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/become_instructor_info.php:6
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/become_instructor_info.php(6): in_array()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(132): include('/home/catalyst/...')
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(140): STM_LMS_Templates::load_lms_template()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/settings.php(15): STM_LMS_Templates::show_lms_template()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(132): include('/home/catalyst/...')
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/lms/classes/templates.php(140): STM_LMS_Templates::load_lms_template()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/stm-lms-user-settings.php(12): STM_LMS_Templates::show_lms_template()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/template-loader.php(106): include('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-blog-header.php(19): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/index.php(17): require('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/masterstudy-lms-learning-management-system/_core/stm-lms-templates/account/private/parts/become_instructor_info.php on line 6
+

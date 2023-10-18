@@ -1,0 +1,418 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: assets/src/blocks/event-attendees/edit.js:279
+msgid ""
+"To get started, select what event you want to show attendees from in the "
+"block settings."
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:290
+msgid "There are no attendees for selected options."
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:334
+msgid "Filter By Settings"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:362
+msgid "Select Registration Status"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:368
+msgid "Number of Attendees to Display:"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:377
+msgid ""
+"Used to adjust the number of attendees displayed (There is %d total "
+"attendee for the current filter settings)."
+msgid_plural ""
+"Used to adjust the number of attendees displayed (There are %d total "
+"attendees for the current filter settings)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/src/blocks/event-attendees/edit.js:387
+msgid "Order Attendees by:"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:391
+msgid "Attendee id"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:395
+msgid "Last name only"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:399
+msgid "First name only"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:403
+msgid "First, then Last name"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:410
+msgid "Last, then First name"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:420
+msgid "Sort order:"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:424
+msgid "Ascending"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:428
+msgid "Descending"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:435
+msgid "Gravatar Setttings"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:437
+msgid "Display Gravatar"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:442
+msgid "Gravatar images are shown for each attendee."
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:446
+msgid "No gravatar images are shown for each attendee."
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:454
+msgid "Size of Gravatar"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:463
+msgid "Archive Settings"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:465
+msgid "Display on Archives"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:470
+msgid "Attendees are shown whenever this post is listed in an archive view."
+msgstr ""
+
+#: assets/src/blocks/event-attendees/edit.js:474
+msgid "Attendees are hidden whenever this post is listed in an archive view."
+msgstr ""
+
+#: assets/src/blocks/event-attendees/index.js:20
+msgid "Event Attendees"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/index.js:22
+msgid "Displays a list of people that have registered for the specified event"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/index.js:32
+msgid "event"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/index.js:33
+msgid "attendees"
+msgstr ""
+
+#: assets/src/blocks/event-attendees/index.js:34
+msgid "list"
+msgstr ""
+
+#: assets/src/components/form/model/base/default-select-configuration.js:97
+msgid "Select…"
+msgstr ""
+
+#: assets/src/components/form/model/select/datetime.js:31
+msgid "Retrieving Datetimes."
+msgstr ""
+
+#: assets/src/components/form/model/select/datetime.js:32
+msgid "No Datetimes."
+msgstr ""
+
+#: assets/src/components/form/model/select/datetime.js:33
+msgid "Select Datetime…"
+msgstr ""
+
+#: assets/src/components/form/model/select/datetime.js:37
+msgid "Select Datetime"
+msgstr ""
+
+#: assets/src/components/form/model/select/event.js:24
+msgid "Retrieving Events."
+msgstr ""
+
+#: assets/src/components/form/model/select/event.js:25
+msgid "No Events."
+msgstr ""
+
+#: assets/src/components/form/model/select/event.js:26
+msgid "Select Event…"
+msgstr ""
+
+#: assets/src/components/form/model/select/event.js:30
+msgid "Select Event"
+msgstr ""
+
+#: assets/src/components/form/model/select/status.js:29
+msgid "Retrieving Statuses."
+msgstr ""
+
+#: assets/src/components/form/model/select/status.js:30
+msgid "No Statuses."
+msgstr ""
+
+#: assets/src/components/form/model/select/status.js:31
+msgid "Select Status…"
+msgstr ""
+
+#: assets/src/components/form/model/select/status.js:35
+msgid "Select Status"
+msgstr ""
+
+#: assets/src/components/form/model/select/ticket.js:25
+msgid "Retrieving Tickets."
+msgstr ""
+
+#: assets/src/components/form/model/select/ticket.js:26
+msgid "No Tickets."
+msgstr ""
+
+#: assets/src/components/form/model/select/ticket.js:27
+msgid "Select Ticket…"
+msgstr ""
+
+#: assets/src/components/form/model/select/ticket.js:31
+msgid "Select Ticket"
+msgstr ""
+
+#: assets/src/components/query/limit/index.js:12
+msgid "Limit"
+msgstr ""
+
+#: assets/src/components/ui/image/avatar.js:36
+msgid "contact avatar"
+msgstr ""
+
+#: assets/src/data/eventespresso/core/model/checkin/actions.js:88
+msgid ""
+"Toggling the checkin failed. Usually this is due to the checkin not having "
+"access"
+msgstr ""
+
+#: assets/src/data/eventespresso/lists/selectors.js:100
+msgid "The given identifier (%s) does not exist in the state."
+msgstr ""
+
+#: assets/src/data/model/assertions.js:111
+msgid "The provided item must be a Map object"
+msgstr ""
+
+#: assets/src/data/model/assertions.js:21
+msgid "The provided entity (%s) does not have the given property (%s)"
+msgstr ""
+
+#: assets/src/data/model/assertions.js:54
+msgid "The provided immutable object (%s) does not have the given path (%s)"
+msgstr ""
+
+#: assets/src/data/model/assertions.js:77
+msgid "The provided value is not an array."
+msgstr ""
+
+#: assets/src/data/model/assertions.js:95
+msgid "The provided items must not be empty"
+msgstr ""
+
+#: assets/src/data/model/primary-keys.js:109
+msgid "The provided array of entities must not be empty"
+msgstr ""
+
+#: assets/src/data/model/primary-keys.js:135
+msgid "The provided object of entities must be a Map object"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:102
+msgid "sent"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:105
+msgid "queued for sending"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:108
+msgid "failed"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:111
+msgid "debug only"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:114
+msgid "messenger is executing"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:117
+msgid "queued for resending"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:120
+msgid "queued for generating"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:123
+msgid "failed sending, can be retried"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:134
+msgid "published"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:137
+msgid "scheduled"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:140
+msgid "draft"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:143
+msgid "pending"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:146
+msgid "private"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:149
+msgid "trashed"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:180
+msgid "archived"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:192
+msgid "on sale"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:203
+msgid "cancelled"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:206
+msgid "sold out"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:209
+msgid "expired"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:212
+msgid "inactive"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:215
+msgid "upcoming"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:218
+msgid "active"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:221
+msgid "postponed"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:232
+msgid "check-in"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:233
+msgid "check-ins"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:236
+msgid "check-out"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:237
+msgid "check-outs"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:24
+msgid "pending payment"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:240
+msgid "never checked in"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:25
+msgid "pending payments"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:260
+msgid "unknown"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:28
+msgid "approved"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:31
+msgid "not approved"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:43
+msgid "wait list"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:44
+msgid "wait lists"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:56
+msgid "overpaid"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:59
+msgid "complete"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:62
+msgid "incomplete"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:68
+msgid "abandoned"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:79
+msgid "accepted"
+msgstr ""
+
+#: assets/src/data/model/status/helpers.js:88
+msgid "declined"
+msgstr ""
+
+#: assets/src/exit-modal-survey/index.js:40
+msgid "Do you have a moment to share why you are deactivating Event Espresso?"
+msgstr ""
+
+#: assets/src/exit-modal-survey/index.js:44
+msgid "Sure I'll help"
+msgstr ""
+
+#: assets/src/exit-modal-survey/index.js:45
+msgid "Skip"
+msgstr ""

@@ -1,0 +1,23 @@
+2023-04-10 16:40:55: Sendinblue API Key not found.
+2023-04-10 17:35:56: A DOI Redirection URL is missing
+2023-04-10 17:39:08: A DOI Redirection URL is missing
+2023-04-10 17:39:23: A DOI Redirection URL is missing
+2023-04-10 17:59:24: A DOI Redirection URL is missing
+2023-04-10 18:34:46: A DOI Redirection URL is missing
+2023-04-10 18:34:53: A DOI Redirection URL is missing
+2023-04-10 18:35:23: A DOI Redirection URL is missing
+2023-04-29 11:21:21: cURL error 28: Resolving timed out after 10000 milliseconds
+2023-05-08 06:11:15: cURL error 28: Resolving timed out after 10000 milliseconds
+2023-05-17 14:30:30: cURL error 28: Resolving timed out after 10000 milliseconds
+2023-05-20 14:17:48: cURL error 28: Resolving timed out after 10000 milliseconds
+2023-05-22 08:56:06: cURL error 28: Failed to connect to api.sendinblue.com port 443 after 8853 ms: Connection timed out
+2023-05-22 12:20:33: cURL error 28: Resolving timed out after 10000 milliseconds
+2023-05-24 16:21:15: cURL error 28: Resolving timed out after 10000 milliseconds
+2023-05-26 07:53:32: cURL error 28: Resolving timed out after 10000 milliseconds
+2023-05-27 08:42:13: cURL error 28: Resolving timed out after 10000 milliseconds
+2023-06-07 05:56:02: cURL error 28: Resolving timed out after 10000 milliseconds
+2023-06-13 07:54:22: null
+2023-07-04 06:50:35: null
+2023-07-30 15:49:49: cURL error 28: Resolving timed out after 10000 milliseconds
+2023-08-10 03:39:21: cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received
+2023-09-05 14:23:35: cURL error 28: Resolving timed out after 10000 milliseconds

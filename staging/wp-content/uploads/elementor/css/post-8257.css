@@ -1,0 +1,61 @@
+.elementor-8257 .elementor-element.elementor-element-dad6c4e > .elementor-container{max-width:300px;min-height:100vh;}.elementor-bc-flex-widget .elementor-8257 .elementor-element.elementor-element-743bdc0.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-8257 .elementor-element.elementor-element-743bdc0.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-8257 .elementor-element.elementor-element-743bdc0 > .elementor-element-populated, .elementor-8257 .elementor-element.elementor-element-743bdc0 > .elementor-element-populated > .elementor-background-overlay, .elementor-8257 .elementor-element.elementor-element-743bdc0 > .elementor-background-slideshow{border-radius:20px 20px 20px 20px;}.elementor-8257 .elementor-element.elementor-element-743bdc0 > .elementor-element-populated{padding:75px 25px 75px 25px;}.elementor-8257 .elementor-element.elementor-element-55e55f0{text-align:center;width:var( --container-widget-width, 49.098% );max-width:49.098%;--container-widget-width:49.098%;--container-widget-flex-grow:0;}.elementor-8257 .elementor-element.elementor-element-55e55f0 > .elementor-widget-container{--e-transform-scale:0.65;}.elementor-8257 .elementor-element.elementor-element-eb24374 > .elementor-element-populated{margin:0% 0% 0% 20%;--e-column-margin-right:0%;--e-column-margin-left:20%;padding:0px 0px 0px 20px;}.elementor-8257 .elementor-element.elementor-element-d59df5a .elementor-heading-title{color:var( --e-global-color-2a2a71e );font-family:"Poppins", Sans-serif;font-size:32px;font-weight:700;}.elementor-8257 .elementor-element.elementor-element-bdaff96{color:var( --e-global-color-2a2a71e );font-family:"Poppins", Sans-serif;font-size:16px;line-height:0.5em;width:var( --container-widget-width, 310px );max-width:310px;--container-widget-width:310px;--container-widget-flex-grow:0;}.elementor-8257 .elementor-element.elementor-element-bdaff96 > .elementor-widget-container{margin:0px 0px -10px 0px;}/* Start custom CSS for column, class: .elementor-element-743bdc0 *//*peers Hover Animation CSS*/
+/*Copyrighted By Jim Fahad Digital*/
+/*Don't use this code to Remake Youtube Videos*/
+.elementor-8257 .elementor-element.elementor-element-743bdc0{
+    --transition: 0.5s;
+    --circle-color:#a7a7a7;
+    --content-background: #bf9e3f;
+    --mobile-height: 650px;
+    --mob-top: 300px;
+}
+.elementor-8257 .elementor-element.elementor-element-743bdc0 .elementor-widget-wrap,.elementor-8257 .elementor-element.elementor-element-743bdc0 .elementor-widget-container,.elementor-8257 .elementor-element.elementor-element-743bdc0 .elementor-widget-image,.peers-text,.elementor-8257 .elementor-element.elementor-element-743bdc0 > .elementor-widget-wrap:before,.elementor-8257 .elementor-element.elementor-element-743bdc0{
+    transition: all var(--transition) !important;
+}
+.elementor-8257 .elementor-element.elementor-element-743bdc0 > .elementor-widget-wrap:before{
+    content: "";
+    background: var(--circle-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 20px;
+    clip-path: circle(120px at center);
+}
+.elementor-8257 .elementor-element.elementor-element-743bdc0:hover > .elementor-widget-wrap:before{
+    clip-path: circle(400px at center);
+    background: var(--content-background);
+}
+.elementor-8257 .elementor-element.elementor-element-743bdc0:hover .elementor-widget-image{
+    right: 0px !important;
+}
+.elementor-8257 .elementor-element.elementor-element-743bdc0:hover .elementor-widget-image .elementor-widget-container{
+    transform: scale(1);
+}
+.elementor-8257 .elementor-element.elementor-element-743bdc0 .peers-text{
+    opacity: 0;
+    visibility: hiddin;
+}
+.elementor-8257 .elementor-element.elementor-element-743bdc0:hover .peers-text{
+    opacity: 1;
+    visibility: visible;
+}
+.elementor-8257 .elementor-element.elementor-element-743bdc0:hover .peers-text .elementor-widget-wrap{
+    margin-left: 0px !important;
+}
+/*Responsive*/
+@media (max-width: 767px) {
+.elementor-8257 .elementor-element.elementor-element-743bdc0{
+    height: var(--mobile-height);
+}  
+.elementor-8257 .elementor-element.elementor-element-743bdc0 .elementor-widget-image .elementor-widget-container{
+    transform: scale(1);
+}
+.elementor-8257 .elementor-element.elementor-element-743bdc0:hover .elementor-widget-image{
+    right: 68px !important;
+    top: var(--mob-top) !important;
+}
+.elementor-8257 .elementor-element.elementor-element-743bdc0:hover .peers-text .elementor-widget-wrap{
+    margin-top: -265px !important;
+}
+}/* End custom CSS */

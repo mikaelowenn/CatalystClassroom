@@ -1,0 +1,271 @@
+2023-09-17T03:33:23+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/V1/ProductsBySlug.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(61): Automattic\Jetpack\Autoloader\jpa291a41a79c4717f52ec2c309a1556bf\PHP_Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(77): Automattic\WooCommerce\StoreApi\RoutesController->__construct()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\StoreApi\StoreApi::Automattic\WooCommerce\StoreApi\{closure}()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(27): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\StoreApi\StoreApi->Automattic\WooCommerce\StoreApi\{closure}()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#17 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#18 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#19 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-09-17T03:33:23+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/V1/ProductsBySlug.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(61): Automattic\Jetpack\Autoloader\jpa291a41a79c4717f52ec2c309a1556bf\PHP_Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(77): Automattic\WooCommerce\StoreApi\RoutesController->__construct()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\StoreApi\StoreApi::Automattic\WooCommerce\StoreApi\{closure}()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(27): Automattic\WooCommerce\Blocks\Registry\Container->get()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\StoreApi\StoreApi->Automattic\WooCommerce\StoreApi\{closure}()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#17 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#18 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#19 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-09-17T03:52:11+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-customer-downloads-v2-controller.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/includes/rest-api/Server.php(42): Automattic\Jetpack\Autoloader\jpa291a41a79c4717f52ec2c309a1556bf\PHP_Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\RestApi\Server->register_rest_routes()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#14 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-09-17T03:52:11+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/src/Admin/API/Reports/Customers/Stats/Controller.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/src/Admin/API/Init.php(146): Automattic\Jetpack\Autoloader\jpa291a41a79c4717f52ec2c309a1556bf\PHP_Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Admin\API\Init->rest_api_init()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#14 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-09-17T03:52:11+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/app/modules/kit-library/data/kits/endpoints/download-link.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/app/modules/kit-library/data/kits/controller.php(58): Elementor\Autoloader::autoload()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/data/v2/base/controller.php(410): Elementor\App\Modules\KitLibrary\Data\Kits\Controller->register_endpoints()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/data/v2/base/controller.php(462): Elementor\Data\V2\Base\Controller->register()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Elementor\Data\V2\Base\Controller->Elementor\Data\V2\Base\{closure}()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(587): do_action()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/rest-api.php(411): rest_get_server()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): rest_api_loaded()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(398): do_action_ref_array()
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp.php(779): WP->parse_request()
+#14 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/functions.php(1335): WP->main()
+#15 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(16): wp()
+#16 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#17 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-09-17T04:02:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_event_registration_form() in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php:164
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): add_event_registration_button()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/general-template.php(3069): do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/footer.php(13): wp_footer()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template.php(785): require_once('/home/catalyst/...')
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template.php(720): load_template()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/general-template.php(92): locate_template()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(30): get_footer()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template-loader.php(106): include('/home/catalyst/...')
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(19): require_once('/home/catalyst/...')
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#12 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php on line 164
+
+2023-09-17T04:19:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_event() in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php:161
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): addRegisterEventButton()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/general-template.php(3069): do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/footer.php(13): wp_footer()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template.php(785): require_once('/home/catalyst/...')
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template.php(720): load_template()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/general-template.php(92): locate_template()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(30): get_footer()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template-loader.php(106): include('/home/catalyst/...')
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(19): require_once('/home/catalyst/...')
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#12 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php on line 161
+
+2023-09-17T04:34:01+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-mail-smtp-pro/src/Pro/Tasks/Logs/Sendinblue/VerifySentStatusTask.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-mail-smtp-pro/wp-mail-smtp.php:40
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-mail-smtp-pro/src/Tasks/Tasks.php(50): is_subclass_of()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-mail-smtp-pro/src/Core.php(244): WPMailSMTP\Tasks\Tasks->init()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): WPMailSMTP\Core->get_tasks()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#10 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-mail-smtp-pro/wp-mail-smtp.php on line 40
+
+2023-09-17T04:35:23+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/modules/gutenberg/module.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/core/modules-manager.php(53): Elementor\Autoloader::autoload()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/plugin.php(730): Elementor\Core\Modules_Manager->__construct()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(632): do_action()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#11 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-09-17T04:36:08+00:00 CRITICAL Cannot redeclare add_plugin_page_event_manager_settings_link() (previously declared in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager/wp-event-manager.php:419) in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager-master/wp-event-manager.php on line 419
+
+2023-09-17T04:36:11+00:00 CRITICAL Cannot redeclare add_plugin_page_event_manager_settings_link() (previously declared in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager/wp-event-manager.php:419) in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager-master/wp-event-manager.php on line 419
+
+2023-09-17T04:36:27+00:00 CRITICAL Cannot redeclare add_plugin_page_event_manager_settings_link() (previously declared in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager/wp-event-manager.php:419) in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager-master/wp-event-manager.php on line 419
+
+2023-09-17T04:36:31+00:00 CRITICAL Cannot redeclare add_plugin_page_event_manager_settings_link() (previously declared in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager/wp-event-manager.php:419) in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager-master/wp-event-manager.php on line 419
+
+2023-09-17T05:12:50+00:00 CRITICAL Cannot redeclare add_plugin_page_event_manager_settings_link() (previously declared in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager/wp-event-manager.php:419) in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager-master/wp-event-manager.php on line 419
+
+2023-09-17T05:13:14+00:00 CRITICAL Cannot redeclare add_plugin_page_event_manager_settings_link() (previously declared in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager/wp-event-manager.php:419) in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager-master/wp-event-manager.php on line 419
+
+2023-09-17T05:13:16+00:00 CRITICAL Cannot redeclare add_plugin_page_event_manager_settings_link() (previously declared in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager/wp-event-manager.php:419) in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager-master/wp-event-manager.php on line 419
+
+2023-09-17T05:21:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_event() in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php:161
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): addRegisterEventButton()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/general-template.php(3069): do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/footer.php(13): wp_footer()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template.php(785): require_once('/home/catalyst/...')
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template.php(720): load_template()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/general-template.php(92): locate_template()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/index.php(129): get_footer()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template-loader.php(106): include('/home/catalyst/...')
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(19): require_once('/home/catalyst/...')
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#12 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php on line 161
+
+2023-09-17T05:21:57+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_event() in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php:161
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(310): addRegisterEventButton()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/general-template.php(3069): do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/footer.php(13): wp_footer()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template.php(785): require_once('/home/catalyst/...')
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template.php(720): load_template()
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/general-template.php(92): locate_template()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(30): get_footer()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-includes/template-loader.php(106): include('/home/catalyst/...')
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(19): require_once('/home/catalyst/...')
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#12 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php on line 161
+
+2023-09-17T05:22:36+00:00 CRITICAL Cannot redeclare add_plugin_page_event_manager_settings_link() (previously declared in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager/wp-event-manager.php:419) in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager-master/wp-event-manager.php on line 419
+
+2023-09-17T05:22:51+00:00 CRITICAL Cannot redeclare add_plugin_page_event_manager_settings_link() (previously declared in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager/wp-event-manager.php:419) in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager-master/wp-event-manager.php on line 419
+
+2023-09-17T05:22:54+00:00 CRITICAL Cannot redeclare add_plugin_page_event_manager_settings_link() (previously declared in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager/wp-event-manager.php:419) in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/plugins/wp-event-manager-master/wp-event-manager.php on line 419
+
+2023-09-17T05:45:58+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php:166
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(600): include()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(13): require_once('/home/catalyst/...')
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#5 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php on line 166
+
+2023-09-17T05:46:01+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php:166
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(600): include()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(13): require_once('/home/catalyst/...')
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#5 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php on line 166
+
+2023-09-17T05:46:18+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php:166
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(600): include()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-blog-header.php(13): require_once('/home/catalyst/...')
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/index.php(17): require('/home/catalyst/...')
+#5 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php on line 166
+
+2023-09-17T05:47:15+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php:166
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-settings.php(600): include()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-config.php(97): require_once('/home/catalyst/...')
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-load.php(50): require_once('/home/catalyst/...')
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/admin.php(34): require_once('/home/catalyst/...')
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-admin/plugins.php(10): require_once('/home/catalyst/...')
+#5 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php on line 166
+
+2023-09-17T05:50:04+00:00 CRITICAL syntax error, unexpected token "!", expecting ")" in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php on line 155
+
+2023-09-17T05:50:05+00:00 CRITICAL syntax error, unexpected token "!", expecting ")" in /home/catalyst/domains/catalystclassroom.com/public_html/staging/wp-content/themes/masterstudy/functions.php on line 155
+

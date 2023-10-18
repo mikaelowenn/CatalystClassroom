@@ -1,0 +1,32 @@
+2023-09-22T16:59:14+00:00 CRITICAL Uncaught Error: Class "WPStaging\Framework\Notices\Notices" not found in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/Basic/BasicServiceProvider.php:23
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/Framework/DI/ServiceProvider.php(10): WPStaging\Basic\BasicServiceProvider->addHooks()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/vendor_wpstg/lucatume/di52/src/Container.php(422): WPStaging\Framework\DI\ServiceProvider->register()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/Core/WPStaging.php(118): WPStaging\Vendor\lucatume\DI52\Container->register()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/Core/WPStaging.php(238): WPStaging\Core\WPStaging->bootstrap()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/Core/WPStaging.php(234): WPStaging\Core\WPStaging::getInstance()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/bootstrap.php(102): WPStaging\Core\WPStaging::getInstance()
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/freeBootstrap.php(20): require_once('/home/catalyst/...')
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(308): {closure}()
+#8 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/catalyst/domains/catalystclassroom.com/public_html/wp-settings.php(495): do_action()
+#11 /home/catalyst/domains/catalystclassroom.com/public_html/wp-config.php(97): require_once('/home/catalyst/...')
+#12 /home/catalyst/domains/catalystclassroom.com/public_html/wp-load.php(50): require_once('/home/catalyst/...')
+#13 /home/catalyst/domains/catalystclassroom.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/catalyst/...')
+#14 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/wp-staging/Basic/BasicServiceProvider.php on line 23
+
+2023-09-22T16:59:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductNew.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(65): Automattic\Jetpack\Autoloader\jpa291a41a79c4717f52ec2c309a1556bf\PHP_Autoloader::load_class()
+#1 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks()
+#2 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/catalyst/domains/catalystclassroom.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/catalyst/domains/catalystclassroom.com/public_html/wp-settings.php(632): do_action()
+#5 /home/catalyst/domains/catalystclassroom.com/public_html/wp-config.php(97): require_once('/home/catalyst/...')
+#6 /home/catalyst/domains/catalystclassroom.com/public_html/wp-load.php(50): require_once('/home/catalyst/...')
+#7 /home/catalyst/domains/catalystclassroom.com/public_html/wp-cron.php(46): require_once('/home/catalyst/...')
+#8 {main}
+  thrown in /home/catalyst/domains/catalystclassroom.com/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
